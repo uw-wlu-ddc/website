@@ -10,8 +10,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        accent: "var(--accent)",
+        primary: "var(--primary)"
       },
+      fontFamily: {
+        figtree: ['Figtree', "sans-serif"],
+        dm: ['DM Mono']
+      }
     },
+    container: {
+      center: true
+    }
   },
   plugins: [],
 };

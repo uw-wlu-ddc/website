@@ -1,24 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+@import url('https://fonts.google.com/share?selection.family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
-
 
 :root {
-    --accent: #B19CD8;
-    --background: var(--accent, #B19CD8);
+    --background: #B19CD8;
     --foreground: #ededed;
+    --primary: #F9C724;
+    --accent: #20112C;
 }
   
 body {
-color: var(--foreground);
-background: var(--background);
-font-family: Arial, Helvetica, sans-serif;
+    color: var(--background);
+    background: var(--background);
+    primary: var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-.text-balance {
-    text-wrap: balance;
-}
+@layer components {
+    .bordered {
+        @apply border-2 border-black border-solid
+    }
 }
