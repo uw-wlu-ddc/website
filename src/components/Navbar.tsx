@@ -23,5 +23,6 @@ export function Navbar() {
         <Link href="/contact">Contact</Link>
       </div>
     </nav>
+
   );
 }
