@@ -1,21 +1,19 @@
+import Image from 'next/image'
 import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-white py-4">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between text-gray-500">
-          <p>Double Degree Club</p>
-          <div className="space-x-4">
-            <Link href="/privacy" className="hover:text-blue-500">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="hover:text-blue-500">
-              Terms of Service
-            </Link>
-          </div>
+    <footer className="bg-white pr-[855px] pl-[36px] pt-[36px] pb-[65px] flex-col font-figree text-accent">
+        <div className="text-4xl font-extrabold leading-[64px]">
+            Double Degree Club
         </div>
-      </div>
+        <Link className="pl-4 gap-4 font-mono inline-flex" href="https://www.instagram.com/doubledegreeclub">
+            <Image src="/insta-icon.png" width={24} height={24} alt=""/>
+            <text className="text-base">@doubledegreeclub</text>
+        </Link>
+        <div className="px-4">
+            <u>easter egg</u>
+        </div>
     </footer>
   );
 }
