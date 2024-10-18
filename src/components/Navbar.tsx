@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Navbar() {
   return (
-    <nav className="fixed w-full z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
+    <nav className="fixed w-full top-0 z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
       <Link className="gap-1 items-center inline-flex" href="/">
         <Image
           src="./assets/logo/ddc-logo-no-text.svg"
@@ -16,7 +16,7 @@ export function Navbar() {
           DDC
         </text>
       </Link>
-      <div className="font-figtree text-subheader text-black items-center inline-flex space-x-6">
+      <div className="font-figtree text-subheader text-black items-center inline-flex gap-6">
         <Link href="/about">About</Link>
         <Link href="/constitution">Constitution</Link>
         <Link href="/execs">Execs</Link>
