@@ -4,14 +4,13 @@ import Link from "next/link";
 export default function Home() {
     return (
         <>
-            <div className="w-full h-[862px] bg-background border-b-2 border-b-black px-[230px] pb-[136px] pt-[74px] justify-center align-middle">
-                <div
-                    className="w-full relative mx-auto bg-white aspect-auto h-full box-border bordered border-purple-950 inline-flex p-14">
-                    <div className="mx-auto justify-center items-center">
-                        <Image src="/logo/logo-filled.svg" alt="" width={476} height={478}/>
+            <div className="w-full h-[862px] bg-background border-b-2 border-b-black px-[14.375rem] pb-[8.5rem] pt-[4.625rem] justify-center align-middle">
+                <div className="w-full min-w-fit h-full relative mx-auto bg-white aspect-auto box-border bordered flex p-14">
+                    <div className="min-w-[476px] w-6/12 min-h-[478px] mx-auto flex justify-center items-center">
+                        <Image src="/logo/logo-filled.svg" alt="Double Degree Club logo" width={476} height={478} className="object-contain"/>
                     </div>
                     <div
-                        className="w-6/12 px-[50px] pt-[10px] flex-col justify-center items-start flex float-right text-black font-figtree">
+                        className="w-full min-w-9 px-[3.5rem] pt-[10px] flex-col justify-center items-start flex float-right text-black font-figtree">
                         <div
                             className="p-2.5 gap-2.5 items-center font-figtree font-extrabold text-7xl leading-[79px] float-left">
                             Double<br/>Degree<br/>Club
@@ -42,10 +41,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div
-                className="w-full h-[768px] pr-[106px] pt-[60px] pb-9 bg flex bg-white bordered justify-start items-center">
+            <div className="w-full h-[768px] pr-[106px] pt-[60px] pb-9 bg flex bg-white bordered justify-start items-center">
             <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
-                <div className="relative w-6/12 pt-14 pb-[88px] pr-14 pl-[112px] grid bordered gap-8 float-left">
+                <div className="relative w-6/12 min-w-[753px] h-[501px] pt-14 pb-[88px] pr-14 pl-[112px] grid bordered gap-8 float-left">
                     <div className="text-3xl text-accent font-semibold leading-9">
                         The DDC is an official, UW and WLU registered, student-run organization that aims to enhance
                         the Double Degree student experience.
@@ -70,7 +68,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div
-                    className="w-auto h-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
+                    className="w-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
                     Testing
                 </div>
             </div>
