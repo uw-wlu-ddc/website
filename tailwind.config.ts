@@ -73,7 +73,7 @@ const config: Config = {
     fontFamily: {
       figtree: ["Figtree", "sans-serif"],
       dm: ["DM Mono"],
-      baskerville: ["Baskerville", "serif"],
+      baskerville: ["Libre Baskerville", "serif"],
     },
     fontSize: {
       title: [
