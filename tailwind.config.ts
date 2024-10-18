@@ -80,7 +80,7 @@ const config: Config = {
         "4.5rem",
         {
           lineHeight: "4.95rem",
-          letterSpacing: "-0.072em",
+          letterSpacing: "-0.02em",
           fontWeight: "800",
         },
       ],
