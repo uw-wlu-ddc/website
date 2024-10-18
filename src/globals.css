@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
-@import url('https://fonts.google.com/share?selection.family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,7 @@
 
 :root {
     --background: #B19CD8;
-    --foreground: #ededed;
+    --foreground: #EDEDED;
     --primary: #F9C724;
     --accent: #20112C;
 }

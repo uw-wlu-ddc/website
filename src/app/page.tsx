@@ -17,7 +17,7 @@ export default function Home() {
                             Double<br/>Degree<br/>Club
                         </div>
                         <div
-                            className="h-full w-full px-2.5 pb-16 pt-6 text-xl font-medium leading-snug tracking-widest items-center gap-10 font-['DM Mono']">
+                            className="h-full w-full px-2.5 pb-16 pt-6 text-xl font-medium leading-snug tracking-widest items-center gap-10 font-mono">
                             THE BEST OF BOTH WORLDS
                         </div>
                         <div className="pt-[64px] pb-16 pr-2 pl-2 flex flex-col items-start relative">
@@ -35,33 +35,45 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <Image className="absolute left-0 top-[110px] translate-x-[-50%] translate-y-[-50%] rounded-full"
-                           src="/small/faces/home-face.svg" width={160} height={160} alt=""/>
+                    <div className="absolute left-0 top-[110px] translate-x-[-50%] translate-y-[-50%]">
+                        <span className="w-[165px] h-[165px] absolute top-[15px] left-[22px] bg-accent rounded-full"/>
+                        <Image className="relative left-0 top-0" src="/small/faces/home-face-1.svg" width={160}
+                               height={160} alt=""/>
+                    </div>
                 </div>
             </div>
             <div
                 className="w-full h-[768px] pr-[106px] pt-[60px] pb-9 bg flex bg-white bordered justify-start items-center">
             <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
-                    <div className="w-6/12 py-14 pr-14 pl-[112px] grid bordered gap-8 float-left">
-                        <div className="text-3xl text-accent">
-                            The DDC is an official, UW and WLU registered, student-run organization that aims to enhance
-                            the Double Degree student experience.
-                        </div>
-                        <div className="text-black text-accent text-base">
-                            The club hosts several <b>social events, networking/mentorships opportunities</b>, and <b>academic
-                            resources. Our goal is to provide</b> double degrees opportunities to find their community
-                            and support.
-                        </div>
-                        <Link
-                            className="w-fit inline-block text-accent items-center font-medium font-mono text-xl gap-10 py-2 px-4 bg-[#dddcde]/50"
-                            href="https://www.instagram.com/doubledegreeclub/">
-                            VIEW OUR EVENTS ON INSTAGRAM<br/>@<u>DOUBLEDEGREECLUB</u>
-                        </Link>
+                <div className="relative w-6/12 pt-14 pb-[88px] pr-14 pl-[112px] grid bordered gap-8 float-left">
+                    <div className="text-3xl text-accent font-semibold leading-9">
+                        The DDC is an official, UW and WLU registered, student-run organization that aims to enhance
+                        the Double Degree student experience.
                     </div>
-                    <div className="w-auto h-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
-                        Testing
+                    <div className="text-accent text-base font-normal leading-loose font-['Libre Baskerville']">
+                        The club hosts several <b>social events, networking/mentorships opportunities</b>, and <b>academic
+                        resources. Our goal is to provide</b> double degrees opportunities to find their community
+                        and support.
+                    </div>
+                    <Link
+                        className="w-fit inline-block items-center gap-10 py-2 px-4 bg-[#dddcde]/50 text-black text-xl font-medium font-mono uppercase leading-snug tracking-widest"
+                        href="https://www.instagram.com/doubledegreeclub/">
+                        VIEW OUR EVENTS ON INSTAGRAM <br/>@<u>DOUBLEDEGREECLUB</u>
+                    </Link>
+                    <div
+                        className="absolute top-0 left-[112px] translate-y-[-50%] py-[18px] px-[32px] justify-center align-middle flex bg-accent">
+                        <a className="text-[32px] font-semibold leading-9 flex text-white">Intro</a>
+                    </div>
+                    <div className="absolute right-[-22px] bottom-[-10px] translate-y-[50%]">
+                        <Image className="relative left-0 top-0" src="/small/faces/home-face-2.svg" width={212}
+                               height={212} alt=""/>
                     </div>
                 </div>
+                <div
+                    className="w-auto h-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
+                    Testing
+                </div>
+            </div>
             </div>
             <div className="w-full h-[1222px] bg-background pl-[148px] pr-[98px] py-[60px] bordered">
 

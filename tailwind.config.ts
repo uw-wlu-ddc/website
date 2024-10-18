@@ -15,7 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         figtree: ['Figtree', "sans-serif"],
-        dm: ['DM Mono']
+        mono: ['DM Mono']
       }
     },
     container: {
