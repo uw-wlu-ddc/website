@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
+import ButtonBox from "@/components/ButtonBox";
 
 function ScrollButton() {
     return (
-        <Link
+        <ButtonBox
             href="#card-intro"
-            className="absolute left-0 top-0 w-[17.5rem] h-[3.875rem] bg-white bordered inline-flex justify-center items-center gap-2.5 duration-500 hover:bg-purple-100">
+            className="absolute left-0 top-0 w-[17.5rem] h-[3.875rem]">
             <Image
                 src="./assets/small/down-arrow.svg"
                 alt=""
@@ -13,7 +13,7 @@ function ScrollButton() {
                 height={21}
             />
             <text className="font-figtree text-subheader">Who are we?</text>
-        </Link>
+        </ButtonBox>
     )
 }
 
