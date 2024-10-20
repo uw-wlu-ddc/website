@@ -29,8 +29,7 @@ export default function CardIntro() {
               Intro
             </text>
           </div>
-          {// Disabling smiley face for now
-          /* <div className="absolute right-[-22px] bottom-[-10px] translate-y-[50%]">
+          <div className="absolute right-[-22px] bottom-[-10px] translate-y-[50%]">
             <Image
               className="relative left-0 top-0"
               src="./assets/small/faces/home-face-2.svg"
@@ -38,7 +37,7 @@ export default function CardIntro() {
               height={212}
               alt=""
             />
-          </div> */}
+          </div>
         </div>
         <div className="w-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
           Instagram embed placeholder
