@@ -9,7 +9,7 @@ export default function CardMerch() {
           Rep our program! We&#39;re proud to announce our latest{" "}
           <text className="underline">double degree merch</text>.
         </text>
-        <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.625rem] w-[12rem] bordered z-11 bg-black"></div>
+        <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.625rem] w-[12rem] bordered z-11 bg-black" />
         <ButtonBox
             replaceTab={true}
             href="https://wusa.ca/product/ddc-quarter-zips-2/"
