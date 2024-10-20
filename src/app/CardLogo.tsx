@@ -42,7 +42,7 @@ export default function CardLogo() {
           // May Make this into a component later
           }
           <div className="relative">
-            <text className="font-dm uppercase text-subtitle text-black before:absolute before:inset-0 before:bg-white before:animate-typewriter after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black">
+            <text className="font-dm uppercase text-subtitle text-black typeWriter">
               The best of both worlds
             </text>
           </div>

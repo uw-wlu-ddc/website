@@ -5,9 +5,9 @@ export default function NotFound() {
   return (
     <div className="container h-screen w-fit content-center">
       <div className="relative">
-        <div className="grid gap-6 px-12 pt-8 pb-16 bordered bg-white">
-          <text className="font-figtree text-title text-black ">404.</text>
-          <text className="font-dm text-subtitle text-black uppercase">
+        <div className="relative grid gap-6 px-12 pt-8 pb-16 bordered bg-white">
+          <span className="font-figtree text-title text-black">404.</span>
+          <text className="font-dm text-subtitle text-black uppercase typeWriter">
             This is not the page you are looking for
           </text>
         </div>
