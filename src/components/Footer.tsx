@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-white pl-[36px] pt-[36px] pb-[65px] flex flex-col">
       <text className="font-figtree text-header font-extrabold py-4">
