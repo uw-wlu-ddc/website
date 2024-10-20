@@ -16,13 +16,14 @@ export default function NotFound() {
           className="absolute right-[5.25rem] bottom-[-1.5rem] w-[17.5rem] h-[3.875rem] z-12 gap-2"
           href="/"
         >
-          <text className="font-figtree text-subheader">Back to home</text>
           <Image
             src="assets/small/right-arrow.svg"
             alt=""
             width={16}
             height={12}
-          ></Image>
+            className="scale-[-1]"
+          />
+          <text className="font-figtree text-subheader">Back to home</text>
         </ButtonBox>
       </div>
     </div>
