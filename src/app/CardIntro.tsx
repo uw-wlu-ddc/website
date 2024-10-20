@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CardIntro() {
   return (
-    <div className="w-full h-[48rem] pr-[106px] pt-[60px] pb-9 bg flex bg-white bordered justify-start items-center">
+    <div className="w-full h-[48rem] pr-[106px] pt-[60px] pb-9 bg flex bg-white bordered justify-center items-center">
       <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
         <div className="relative w-6/12 min-w-[47rem] h-[31rem] pt-14 pb-[88px] pr-14 pl-[112px] grid bordered gap-8 float-left">
           <text className="font-figtree text-header text-black">
