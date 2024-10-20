@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
+import ButtonBox from "@/components/ButtonBox";
 
 export default function NotFound() {
     return (
@@ -10,11 +9,9 @@ export default function NotFound() {
                 <p className="mb-4 text-body font-light text-gray-500 dark:text-gray-400">
                     This page is like your future co-op, it doesn&#39;t exist. 
                 </p>
-                <Link
-                    href="/"
-                    className="w-[17.5rem] h-[3.875rem] bg-white inline-flex justify-center items-center gap-2.5 bordered duration-500 hover:bg-purple-100">
+                <ButtonBox className="w-[17.5rem] h-[3.875rem]" href="/">
                     <text className="font-figtree text-subheader">Back to home</text>
-                </Link>
+                </ButtonBox>
             </div>
         </div>
     );

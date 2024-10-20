@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ButtonBox from "@/components/ButtonBox";
 
 export default function CardMerch() {
   return (
@@ -9,11 +10,10 @@ export default function CardMerch() {
           <text className="underline">double degree merch</text>.
         </text>
         <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.625rem] w-[12rem] bordered z-11 bg-black"></div>
-        <a
-          href="https://wusa.ca/product/ddc-quarter-zips-2/"
-          target="_blank"
-          className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] bordered z-12 bg-white inline-flex justify-center items-center gap-2 duration-500 hover:bg-purple-100"
-        >
+        <ButtonBox
+            replaceTab={true}
+            href="https://wusa.ca/product/ddc-quarter-zips-2/"
+            className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] z-12">
           <text className="font-figtree text-subheader">Purchase</text>
           <Image
             src="assets/small/right-arrow.svg"
@@ -21,7 +21,7 @@ export default function CardMerch() {
             width={16}
             height={12}
           ></Image>
-        </a>
+        </ButtonBox>
       </div>
       <Image
         className="absolute right-0 bottom-0"
