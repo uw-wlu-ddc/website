@@ -17,6 +17,7 @@ export default function Navbar() {
         </text>
       </Link>
       <div className="font-figtree text-subheader text-black items-center inline-flex gap-6">
+        <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/constitution">Constitution</Link>
         <Link href="/execs">Execs</Link>

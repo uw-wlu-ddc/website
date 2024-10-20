@@ -8,11 +8,11 @@ export default function CardMerch() {
           Rep our program! We&#39;re proud to announce our latest{" "}
           <text className="underline">double degree merch</text>.
         </text>
-        <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.875rem] w-[12.688rem] bordered z-11 bg-black"></div>
+        <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.625rem] w-[12rem] bordered z-11 bg-black"></div>
         <a
           href="https://wusa.ca/product/ddc-quarter-zips-2/"
           target="_blank"
-          className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] bordered z-12 bg-white inline-flex justify-center items-center gap-2"
+          className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] bordered z-12 bg-white inline-flex justify-center items-center gap-2 duration-500 hover:bg-purple-100"
         >
           <text className="font-figtree text-subheader">Purchase</text>
           <Image
