@@ -20,7 +20,7 @@ function ScrollButton() {
 export default function CardLogo() {
     return (
         <div className="relative container w-fit mt-[8.5rem] flex bg-white bordered p-[3.5rem]">
-            <div className="items-start">
+            <div className="items-start my-auto">
                 <Image
                     src="./assets/logo/ddc-logo-text-yasified.svg"
                     alt=""
@@ -42,7 +42,7 @@ export default function CardLogo() {
             </text>
           </div>
                 <div className="relative">
-                    <div className="absolute left-7 top-7 w-[17.5rem] h-[3.875rem] bg-yellow bordered"/>
+                    <div className="relative left-7 top-7 w-[17.5rem] h-[3.875rem] bg-yellow bordered"/>
                     <div className="absolute left-4 top-4 w-[17.5rem] h-[3.875rem] bg-black bordered"/>
                     <ScrollButton />
                 </div>

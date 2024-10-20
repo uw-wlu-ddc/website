@@ -5,7 +5,7 @@ export default function CardMerch() {
     <div className="container w-[75rem] h-[69rem] flex relative">
       <div className="bg-white bordered w-[42.5rem] h-fit z-10 p-[3.5rem] relative">
         <text className="font-figtree text-header text-black">
-          Rep our program! We're proud to announce our latest{" "}
+          Rep our program! We&#39;re proud to announce our latest{" "}
           <text className="underline">double degree merch</text>.
         </text>
         <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.625rem] w-[12rem] bordered z-11 bg-black"></div>

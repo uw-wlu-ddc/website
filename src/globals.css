@@ -10,7 +10,4 @@
     .bordered {
         @apply border-2 border-black border-solid
     }
-    .nav-text {
-        @apply font-figtree text-subtitle leading-relaxed text-accent h-full flex items-center hover:bg-background
-    }
 }
