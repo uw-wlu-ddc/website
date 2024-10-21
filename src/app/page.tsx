@@ -1,6 +1,7 @@
 import CardLogo from "./CardLogo";
 import CardIntro from "./CardIntro";
 import CardMerch from "./CardMerch";
+import CardJoin from "@/app/CardJoin";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <CardLogo />
       <CardIntro />
       <CardMerch />
-      <div className="w-full h-[695px] pt-[60px] pb-[96px] flex justify-center bordered bg-white">
+        <CardJoin/>
         {
           // LUMA Embed reference
           /* <iframe
@@ -19,7 +20,6 @@ export default function Home() {
           tabIndex={0}
         ></iframe> */
         }
-      </div>
     </div>
   );
 }
