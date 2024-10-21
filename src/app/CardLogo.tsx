@@ -53,7 +53,7 @@ export default function CardLogo() {
           <ScrollButton />
         </div>
       </div>
-      <div className="absolute left-0 top-[110px] translate-x-[-50%] translate-y-[-50%]">
+      <div className="absolute left-0 top-[110px] -translate-x-1/2 -translate-y-1/2">
         <Image
           src="/assets/small/faces/home-face-1.svg"
           width={160}

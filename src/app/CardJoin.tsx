@@ -18,7 +18,7 @@ export default function CardJoin() {
                 <div className="text-black text-body font-baskerville">
                     Pay attention to your emails for ddc applications!
                 </div>
-                <Label className="top-0 right-1/2 translate-y-[-50%] translate-x-[50%]">
+                <Label className="top-0 right-1/2 -translate-y-1/2 translate-x-1/2">
                     Join DDC!
                 </Label>
             </div>
