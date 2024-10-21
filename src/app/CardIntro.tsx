@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Label from "@/components/Label";
 
 export default function CardIntro() {
   return (
@@ -32,9 +33,9 @@ export default function CardIntro() {
             view our events on instagram <br />@
             <text className="underline">doubledegreeclub</text>
           </Link>
-          <div className="absolute top-0 left-[7rem] translate-y-[-50%] py-[1rem] px-[2rem] bg-black">
-            <text className="font-figtree text-header text-white">Intro</text>
-          </div>
+          <Label className="top-0 left-[7rem] translate-y-[-50%]">
+            Intro
+          </Label>
           <div className="absolute right-[-22px] bottom-[-10px] translate-y-[50%]">
             <Image
               className="relative left-0 top-0"
