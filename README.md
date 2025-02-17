@@ -7,6 +7,6 @@ Official Repo for the Double Degree Club Website
 `npm run dev`
 
 ## Contributors
-- Samuel Bai (Webmaster)
-- Peter Macdonald (Webmaster)
-- Michelle Xu (UI)
+- Samuel Bai (Webmaster S24)
+- Peter Macdonald (Webmaster F24)
+- Michelle Xu (Marketing Director S24/F24)
