@@ -8,7 +8,7 @@ function ScrollButton() {
       className="absolute left-0 top-0 w-[17.5rem] h-[3.875rem]"
     >
       <Image
-        src="./assets/small/down-arrow.svg"
+        src="./assets/symbols/down-arrow.svg"
         alt=""
         width={16}
         height={21}
@@ -23,7 +23,7 @@ export default function CardLogo() {
     <div className="relative container w-fit mt-[8.5rem] flex bg-white bordered p-[3.5rem]">
       <div className="items-start my-auto">
         <Image
-          src="./assets/logo/ddc-logo-text-yasified.svg"
+          src="./assets/logos/ddc-logo-text-yasified.svg"
           alt=""
           width={476}
           height={478}
@@ -55,7 +55,7 @@ export default function CardLogo() {
       </div>
       <div className="absolute left-0 top-[110px] -translate-x-1/2 -translate-y-1/2">
         <Image
-          src="/assets/small/faces/home-face-1.svg"
+          src="/assets/symbols/faces/home-face-1.svg"
           width={160}
           height={160}
           alt=""

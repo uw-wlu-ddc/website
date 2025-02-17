@@ -16,7 +16,7 @@ export default function CardMerch() {
             className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] z-12">
           <text className="font-figtree text-subheader">Purchase</text>
           <Image
-            src="assets/small/right-arrow.svg"
+            src="assets/symbols/right-arrow.svg"
             alt=""
             width={16}
             height={12}
@@ -25,7 +25,7 @@ export default function CardMerch() {
       </div>
       <Image
         className="absolute right-0 bottom-0"
-        src="./assets/merch-graphic.svg"
+        src="./assets/large_graphics/merch-graphic.svg"
         alt=""
         width={1046}
         height={1102}

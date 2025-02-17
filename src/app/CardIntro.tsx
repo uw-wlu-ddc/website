@@ -39,7 +39,7 @@ export default function CardIntro() {
           <div className="absolute right-[-22px] bottom-[-10px] translate-y-[50%]">
             <Image
               className="relative left-0 top-0"
-              src="./assets/small/faces/home-face-2.svg"
+              src="./assets/symbols/faces/home-face-2.svg"
               width={212}
               height={212}
               alt=""

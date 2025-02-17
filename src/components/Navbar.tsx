@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="fixed w-full top-0 z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
       <Link className="gap-1 items-center inline-flex" href="/">
         <Image
-          src="./assets/logo/ddc-logo-no-text.svg"
+          src="./assets/logos/ddc-logo-no-text.svg"
           width={54}
           height={56}
           priority

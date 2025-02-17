@@ -17,7 +17,7 @@ export default function NotFound() {
           href="/"
         >
           <Image
-            src="assets/small/right-arrow.svg"
+            src="assets/symbols/right-arrow.svg"
             alt=""
             width={16}
             height={12}
