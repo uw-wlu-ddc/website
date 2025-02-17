@@ -25,7 +25,7 @@ export default function CardMerch() {
       </div>
       <Image
         className="absolute right-0 bottom-0"
-        src="./assets/large_graphics/merch-graphic.svg"
+        src="./assets/images/merch-graphic.svg"
         alt=""
         width={1046}
         height={1102}
