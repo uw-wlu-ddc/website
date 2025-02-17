@@ -7,7 +7,7 @@ export default function NotFound() {
       <div className="relative">
         <div className="relative grid gap-6 px-12 pt-8 pb-16 bordered bg-white">
           <span className="font-figtree text-title text-black">404.</span>
-          <text className="font-dm text-subtitle text-black uppercase typeWriter">
+          <text className="font-dm text-subtitle text-black uppercase">
             This is not the page you are looking for
           </text>
         </div>

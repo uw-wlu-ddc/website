@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Double Degree Club",
     description: "A website for Double Degrees",
     icons: {
-        icon: "/website_icon.svg"
+        icon: "/favicon.svg"
     }
 };
 
