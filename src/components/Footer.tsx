@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Icons } from "@/components/Icons";
 
 export default function Footer() {
   return (
@@ -9,9 +10,9 @@ export default function Footer() {
       </text>
       <Link
         className="pl-4 gap-1 inline-flex w-fit"
-        href="https://www.instagram.com/doubledegreeclub"
+        href="https://www.instagram.com/doubledegreeclub/"
       >
-        <Image src="./assets/icons/instagram-icon.svg" width={24} height={24} alt="" />
+        <Icons.instagram />
         <text className="font-baskerville text-body">@doubledegreeclub</text>
       </Link>
       <text className="pl-4 font-baskerville text-body">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ButtonBox from "@/components/ButtonBox";
+import { Icons } from "@/components/Icons";
 
 export default function NotFound() {
   return (
@@ -16,13 +17,7 @@ export default function NotFound() {
           className="absolute right-[5.25rem] bottom-[-1.5rem] w-[17.5rem] h-[3.875rem] z-12 gap-2"
           href="/"
         >
-          <Image
-            src="assets/symbols/right-arrow.svg"
-            alt=""
-            width={16}
-            height={12}
-            className="scale-[-1]"
-          />
+          <Icons.arrowLeft />
           <text className="font-figtree text-subheader">Back to home</text>
         </ButtonBox>
       </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Label from "@/components/Label";
+import { Icons } from "@/components/Icons";
 
 export default function CardIntro() {
   return (
@@ -33,18 +34,8 @@ export default function CardIntro() {
             view our events on instagram <br />@
             <text className="underline">doubledegreeclub</text>
           </Link>
-          <Label className="top-0 left-[7rem] translate-y-[-50%]">
-            Intro
-          </Label>
-          <div className="absolute right-[-22px] bottom-[-10px] translate-y-[50%]">
-            <Image
-              className="relative left-0 top-0"
-              src="./assets/symbols/faces/home-face-2.svg"
-              width={212}
-              height={212}
-              alt=""
-            />
-          </div>
+          <Label className="top-0 left-[7rem] translate-y-[-50%]">Intro</Label>
+          <Icons.face.smile className="absolute right-[-22px] bottom-[-10px] translate-y-1/2" />
         </div>
         <div className="w-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
           Instagram embed placeholder

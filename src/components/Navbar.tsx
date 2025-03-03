@@ -1,17 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Icons } from "@/components/Icons";
 
 export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
       <Link className="gap-1 items-center inline-flex" href="/">
-        <Image
-          src="./assets/logos/ddc-logo-no-text.svg"
-          width={54}
-          height={56}
-          priority
-          alt=""
-        />
+        <Icons.ddcLogo.noText />
         <text className="px-2.5 font-figtree text-header text-black font-extrabold">
           DDC
         </text>

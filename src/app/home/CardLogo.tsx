@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ButtonBox from "@/components/ButtonBox";
+import { Icons } from "@/components/Icons";
 
 function ScrollButton() {
   return (
@@ -7,12 +8,7 @@ function ScrollButton() {
       href="#card-intro"
       className="absolute left-0 top-0 w-[17.5rem] h-[3.875rem]"
     >
-      <Image
-        src="./assets/symbols/down-arrow.svg"
-        alt=""
-        width={16}
-        height={21}
-      />
+      <Icons.arrowDown />
       <text className="font-figtree text-subheader">Who are we?</text>
     </ButtonBox>
   );
@@ -22,12 +18,7 @@ export default function CardLogo() {
   return (
     <div className="relative container w-fit mt-[8.5rem] flex bg-white bordered p-[3.5rem]">
       <div className="items-start my-auto">
-        <Image
-          src="./assets/logos/ddc-logo-text-yasified.svg"
-          alt=""
-          width={476}
-          height={478}
-        />
+        <Icons.ddcLogo.yasified />
       </div>
       <div className="ps-[3.125rem] space-y-16">
         <div className="pe-[0.7rem] space-y-[2.4rem] flex flex-col">
@@ -39,7 +30,7 @@ export default function CardLogo() {
             Club
           </text>
           {
-          // May Make this into a component later
+            // May Make this into a component later
           }
           <div className="relative">
             <text className="font-dm uppercase text-subtitle text-black typeWriter">
@@ -53,14 +44,7 @@ export default function CardLogo() {
           <ScrollButton />
         </div>
       </div>
-      <div className="absolute left-0 top-[110px] -translate-x-1/2 -translate-y-1/2">
-        <Image
-          src="/assets/symbols/faces/home-face-1.svg"
-          width={160}
-          height={160}
-          alt=""
-        />
-      </div>
+      <Icons.face.wink className="absolute left-0 top-[110px] -translate-x-1/2 -translate-y-1/2" />
     </div>
   );
 }
