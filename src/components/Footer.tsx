@@ -12,7 +12,7 @@ export default function Footer() {
         className="pl-4 gap-1 inline-flex w-fit"
         href="https://www.instagram.com/doubledegreeclub/"
       >
-        <Icons.instagram />
+        <Icons.Instagram />
         <text className="font-baskerville text-body">@doubledegreeclub</text>
       </Link>
       <text className="pl-4 font-baskerville text-body">

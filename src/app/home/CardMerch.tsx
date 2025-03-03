@@ -15,10 +15,10 @@ export default function CardMerch() {
             href="https://wusa.ca/product/ddc-quarter-zips-2/"
             className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] z-12">
           <text className="font-figtree text-subheader">Purchase</text>
-          <Icons.arrowRight />
+          <Icons.ArrowRight />
         </ButtonBox>
       </div>
-      <Icons.merch.quarterzips className="absolute right-0 bottom-0" />
+      <Icons.Merch.Quarterzips className="absolute right-0 bottom-0" />
     </div>
   );
 }

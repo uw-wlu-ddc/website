@@ -17,7 +17,7 @@ export default function NotFound() {
           className="absolute right-[5.25rem] bottom-[-1.5rem] w-[17.5rem] h-[3.875rem] z-12 gap-2"
           href="/"
         >
-          <Icons.arrowLeft />
+          <Icons.ArrowLeft />
           <text className="font-figtree text-subheader">Back to home</text>
         </ButtonBox>
       </div>

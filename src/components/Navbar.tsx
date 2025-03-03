@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
       <Link className="gap-1 items-center inline-flex" href="/">
-        <Icons.ddcLogo.noText />
+        <Icons.DDCLogo.NoText />
         <text className="px-2.5 font-figtree text-header text-black font-extrabold">
           DDC
         </text>

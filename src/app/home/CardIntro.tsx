@@ -35,7 +35,7 @@ export default function CardIntro() {
             <text className="underline">doubledegreeclub</text>
           </Link>
           <Label className="top-0 left-[7rem] translate-y-[-50%]">Intro</Label>
-          <Icons.face.smile className="absolute right-[-22px] bottom-[-10px] translate-y-1/2" />
+          <Icons.Face.Smile className="absolute right-[-22px] bottom-[-10px] translate-y-1/2" />
         </div>
         <div className="w-auto bordered items-center justify-center float-right whitespace-nowrap flex-grow">
           Instagram embed placeholder

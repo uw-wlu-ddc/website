@@ -76,19 +76,19 @@ function SmileFace({ className }: { className?: string }) {
 }
 
 export const Icons = {
-  arrowDown: ArrowDown,
-  arrowRight: ArrowRight,
-  arrowLeft: ArrowLeft,
-  instagram: InstagramIcon,
-  ddcLogo: {
-    noText: DDCLogoNoText,
-    yasified: DDCLogoYasified,
+  ArrowDown: ArrowDown,
+  ArrowRight: ArrowRight,
+  ArrowLeft: ArrowLeft,
+  Instagram: InstagramIcon,
+  DDCLogo: {
+    NoText: DDCLogoNoText,
+    Yasified: DDCLogoYasified,
   },
-  merch: {
-    quarterzips: Quarterzips,
+  Merch: {
+    Quarterzips: Quarterzips,
   },
-  face: {
-    wink: WinkFace,
-    smile: SmileFace,
+  Face: {
+    Wink: WinkFace,
+    Smile: SmileFace,
   },
 };
