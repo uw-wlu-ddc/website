@@ -9,10 +9,10 @@ export default function CardIntro() {
   return (
     <div
       id="card-intro"
-      className="w-full h-fit pr-[6.625rem] pt-[3.75rem] pb-9 flex bg-white bordered justify-center items-center"
+      className="w-full h-fit pr-[6.625rem] pt-[3.75rem] pb-9 flex bg-white/60 bordered justify-center items-center"
     >
       <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
-        <div className="relative w-[47rem] h-[31rem] pt-14 pb-[5rem] pr-14 pl-[7rem] grid gap-8 bordered">
+        <div className="relative w-[47rem] h-[31rem] pt-14 pb-[5rem] pr-14 pl-[7rem] grid gap-8 bordered bg-white">
           <text className={`${TextStyle.Header} text-black`}>
             The DDC is an official, UW and WLU registered, student-run
             organization that aims to enhance the Double Degree student
@@ -22,7 +22,7 @@ export default function CardIntro() {
             The club hosts several
             <text className="font-bold">
               {" "}
-              social events, networking & mentorships opportunities
+              social events, networking & mentorship opportunities
             </text>
             , and
             <text className="font-bold"> academic resources</text>.
