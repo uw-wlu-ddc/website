@@ -5,8 +5,8 @@ import { TextStyle } from "@/constants/texts";
 
 export default function CardJoin() {
   return (
-    <div className="w-full h-fit py-24 flex justify-center items-center bg-white bordered ">
-      <div className="relative w-[47rem] p-14 gap-y-10 items-center bordered flex flex-col">
+    <div className="w-full h-fit py-24 flex justify-center items-center bg-white/60  bordered ">
+      <div className="relative w-[47rem] p-14 gap-y-10 items-center bordered flex flex-col bg-white">
         <Label className="top-0 right-1/2 -translate-y-1/2 translate-x-1/2">
           Join DDC!
         </Label>
