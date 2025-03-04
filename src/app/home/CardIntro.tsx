@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Label from "@/components/Label";
 import { Faces } from "@/constants/assets";
 import { Links } from "@/constants/urls";
 
@@ -11,7 +10,8 @@ export default function CardIntro() {
       className="w-full h-fit pr-[6.625rem] pt-[3.75rem] pb-9 flex bg-white/60 bordered justify-center items-center"
     >
       <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
-        <div className="relative w-[47rem] h-[31rem] pt-14 pb-[5rem] pr-14 pl-[7rem] grid gap-8 bordered bg-white">
+        <div className="relative w-fit max-w-[47rem] pt-14 pb-20 pr-14 pl-28 grid gap-8 bordered bg-white">
+          <div className="header label left-36">Who We Are</div>
           <text className="header text-black">
             The DDC is an official, UW and WLU registered, student-run
             organization that aims to enhance the Double Degree student
@@ -35,18 +35,15 @@ export default function CardIntro() {
             view our events on instagram
             <br />@<text className="underline">doubledegreeclub</text>
           </Link>
-          <Label className="top-[-2.25rem] left-[7rem]">Intro</Label>
           <Image
             src={Faces.Smile}
             width={212}
             height={212}
             alt=""
-            className="absolute right-[-1.375rem] bottom-[-7.25rem]"
+            className="absolute -right-6 bottom-0 translate-y-1/2"
           />
         </div>
-        <div className="w-auto bordered items-center justify-center">
-          Instagram embed placeholder
-        </div>
+        <div>Instagram embed placeholder</div>
       </div>
     </div>
   );
