@@ -21,9 +21,9 @@ export default function Footer() {
         <div className="flex flex-col w-[18.75rem] gap-y-2">
           <text className="subheader">Connect</text>
           <div className="body flex flex-col gap-y-2 w-fit">
-            <Link className="inline-flex w-fit gap-x-1" href={Links.Instagram}>
-              <Image src={Logo.Instagram} width={24} height={24} alt="" />
-              <text className="underline">@doubledegreeclub</text>
+            <Link className="inline-flex w-fit" href={Links.Instagram}>
+              <Image src={Logo.Instagram} width={24} height={24} alt="" className="pr-1" />
+              @<text className="underline">doubledegreeclub</text>
             </Link>
             <div>
               <text className="font-bold">Events: </text>
