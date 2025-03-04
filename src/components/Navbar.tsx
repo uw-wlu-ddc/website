@@ -1,24 +1,27 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Icons } from "@/components/Icons";
+import { TextStyle } from "@/constants/texts";
+import { Routes } from "@/constants/routes";
+import { DDCLogo } from "@/constants/assets";
 
 export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
-      <Link className="gap-1 items-center inline-flex" href="/">
-        <Icons.DDCLogo.NoText />
-        <text className="px-2.5 font-figtree text-header text-black font-extrabold">
+      <Link className="h-fit items-center inline-flex" href={Routes.Home}>
+        <Image src={DDCLogo.NoText} width={54} height={56} priority alt="" />
+        <text className="px-4 font-figtree text-header text-black font-extrabold">
           DDC
         </text>
       </Link>
-      <div className="font-figtree text-subheader text-black items-center inline-flex gap-6">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/constitution">Constitution</Link>
-        <Link href="/execs">Execs</Link>
-        <Link href="/contact">Contact</Link>
+      <div
+        className={`${TextStyle.SubHeader} text-black items-center inline-flex gap-x-6`}
+      >
+        <Link href={Routes.Home}>Home</Link>
+        <Link href={Routes.About}>About</Link>
+        <Link href={Routes.Constitution}>Constitution</Link>
+        <Link href={Routes.Execs}>Execs</Link>
+        <Link href={Routes.Contact}>Contact</Link>
       </div>
     </nav>
-
   );
 }
