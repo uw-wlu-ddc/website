@@ -7,10 +7,10 @@ export default function CardIntro() {
   return (
     <div
       id="card-intro"
-      className="w-full h-fit pr-[6.625rem] pt-[3.75rem] pb-9 flex bg-white/60 bordered justify-center items-center"
+      className="w-full h-screen flex bg-white/60 bordered justify-center items-center"
     >
-      <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
-        <div className="relative w-fit max-w-[47rem] pt-14 pb-20 pr-14 pl-28 grid gap-8 bordered bg-white">
+      <div className="flex gap-20">
+        <div className="relative w-fit max-w-[47rem] pt-14 pb-20 pr-14 pl-28 flex flex-col gap-8 bordered bg-white">
           <div className="header label left-36">Who We Are</div>
           <text className="header text-black">
             The DDC is an official, UW and WLU registered, student-run
@@ -18,7 +18,7 @@ export default function CardIntro() {
             experience.
           </text>
           <text className="body text-black">
-            The club hosts several
+            The club hosts several{" "}
             <text className="font-bold">
               {" "}
               social events, networking & mentorship opportunities
@@ -29,11 +29,11 @@ export default function CardIntro() {
             degrees opportunities to find their community and support.
           </text>
           <Link
-            className="w-fit inline-block items-center gap-10 py-2 px-4 bg-black-100/50 text-black text-xl subtitle"
+            className="w-fit py-2 px-4 bg-black-100/50 text-black subtitle"
             href={Links.Instagram}
           >
-            view our events on instagram
-            <br />@<text className="underline">doubledegreeclub</text>
+            VIEW OUR EVENTS ON INSTAGRAM
+            <br />@<text className="underline">DOUBLEDEGREECLUB</text>
           </Link>
           <Image
             src={Faces.Smile}
