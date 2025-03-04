@@ -7,7 +7,7 @@ import { Routes } from "@/constants/routes";
 
 export default function Footer() {
   return (
-    <footer className="bg-white px-[9.25rem] py-16 flex items-center">
+    <footer className="bg-white px-[9.25rem] py-16 flex items-center bordered">
       <div className="flex w-[71.5rem] gap-x-3 text-black">
         <div className="w-[18.75rem] flex flex-col gap-y-2">
           <text className={`${TextStyle.SubHeader}`}>Double Degree Club</text>
