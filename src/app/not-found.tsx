@@ -1,15 +1,13 @@
-import Image from "next/image";
 import ButtonBox from "@/components/ButtonBox";
 import { Icons } from "@/components/Icons";
-import { TextStyle } from "@/constants/texts";
 import { Routes } from "@/constants/routes";
 
 export default function NotFound() {
   return (
     <div className="flex h-screen justify-center items-center">
       <div className="relative flex flex-col gap-6 w-fit px-12 pt-8 pb-16 bordered bg-white text-black">
-        <text className={`${TextStyle.Title}`}>404.</text>
-        <text className={`${TextStyle.Subtitle}`}>
+        <text className="title">404.</text>
+        <text className="subtitle">
           This is not the page you are looking for
         </text>
         <ButtonBox
@@ -17,7 +15,7 @@ export default function NotFound() {
           href={Routes.Home}
         >
           <Icons.ArrowLeft />
-          <text className={`${TextStyle.SubHeader}`}>Back to home</text>
+          <text className="subheader">Back to home</text>
         </ButtonBox>
         <div className="absolute right-[4.3rem] bottom-[-2.3rem] w-[17.5rem] h-[3.875rem] bordered z-10 bg-black" />
       </div>

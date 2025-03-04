@@ -2,7 +2,6 @@ import Image from "next/image";
 import ButtonBox from "@/components/ButtonBox";
 import { Icons } from "@/components/Icons";
 import { Faces } from "@/constants/assets";
-import { TextStyle } from "@/constants/texts";
 
 export default function CardLogo() {
   return (
@@ -18,10 +17,10 @@ export default function CardLogo() {
       </div>
       <div className="space-y-16">
         <div className="pe-[0.7rem] space-y-[2.4rem] flex flex-col">
-          <text className={`text-black ${TextStyle.Title}`}>
+          <text className="title text-black">
             Double <br /> Degree <br /> Club
           </text>
-          <text className={`text-black typeWriter ${TextStyle.Subtitle}`}>
+          <text className="subtitle text-black typeWriter">
             THE BEST OF BOTH WORLDS
           </text>
         </div>
@@ -31,7 +30,7 @@ export default function CardLogo() {
             className="absolute left-0 top-0 z-40 w-[17.5rem] h-[3.875rem]"
           >
             <Icons.ArrowDown />
-            <text className={`${TextStyle.SubHeader}`}>Who are we?</text>
+            <text className="subheader">Who are we?</text>
           </ButtonBox>
           <div className="absolute left-4 top-4 z-30 w-[17.5rem] h-[3.875rem] bg-black bordered" />
           <div className="absolute left-7 top-7 z-20 w-[17.5rem] h-[3.875rem] bg-yellow bordered" />

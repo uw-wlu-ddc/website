@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { TextStyle } from "@/constants/texts";
 import { Routes } from "@/constants/routes";
 import { DDCLogo } from "@/constants/assets";
 
@@ -14,7 +13,7 @@ export default function Navbar() {
         </text>
       </Link>
       <div
-        className={`${TextStyle.SubHeader} text-black items-center inline-flex gap-x-6`}
+        className="subheader text-black items-center inline-flex gap-x-6"
       >
         <Link href={Routes.Home}>Home</Link>
         <Link href={Routes.About}>About</Link>

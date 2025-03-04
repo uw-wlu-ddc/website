@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Label from "@/components/Label";
 import { Faces } from "@/constants/assets";
-import { TextStyle } from "@/constants/texts";
 import { Links } from "@/constants/urls";
 
 export default function CardIntro() {
@@ -13,12 +12,12 @@ export default function CardIntro() {
     >
       <div className="justify-start items-start inline-flex pt-9 pb-32 pr-[26px] gap-[70px]">
         <div className="relative w-[47rem] h-[31rem] pt-14 pb-[5rem] pr-14 pl-[7rem] grid gap-8 bordered bg-white">
-          <text className={`${TextStyle.Header} text-black`}>
+          <text className="header text-black">
             The DDC is an official, UW and WLU registered, student-run
             organization that aims to enhance the Double Degree student
             experience.
           </text>
-          <text className={`${TextStyle.Body} text-black`}>
+          <text className="body text-black">
             The club hosts several
             <text className="font-bold">
               {" "}
@@ -30,7 +29,7 @@ export default function CardIntro() {
             degrees opportunities to find their community and support.
           </text>
           <Link
-            className={`w-fit inline-block items-center gap-10 py-2 px-4 bg-black-100/50 text-black text-xl ${TextStyle.Subtitle}`}
+            className="w-fit inline-block items-center gap-10 py-2 px-4 bg-black-100/50 text-black text-xl subtitle"
             href={Links.Instagram}
           >
             view our events on instagram

@@ -13,4 +13,20 @@
     .typeWriter {
         @apply relative before:absolute before:inset-0 before:bg-white before:animate-typewriter after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black
     }
+    /* Typography Classes */
+    .title {
+        @apply font-figtree text-title
+    }
+    .subtitle {
+        @apply font-dm text-subtitle uppercase
+    }
+    .header {
+        @apply font-figtree text-header
+    }
+    .subheader {
+        @apply font-figtree text-subheader
+    }
+    .body {
+        @apply font-baskerville text-body
+    }
 }
