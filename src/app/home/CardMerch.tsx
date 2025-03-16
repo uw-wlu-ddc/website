@@ -7,7 +7,7 @@ import { Links } from "@/constants/urls";
 export default function CardMerch() {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-[75rem] h-[69rem] relative">
+      <div className="w-[75rem] h-[69rem] relative my-20">
         <div className="relative w-[42.5rem] h-[13.5rem] z-10 p-[3.5rem] bg-white bordered">
           <text className="header text-black">
             Rep our program! We're proud to announce our latest{" "}

@@ -7,9 +7,9 @@ export default function CardIntro() {
   return (
     <div
       id="card-intro"
-      className="w-full h-screen flex bg-white/60 bordered justify-center items-center"
+      className="flex bg-white/60 justify-center items-center"
     >
-      <div className="flex gap-20">
+      <div className="flex gap-20 mt-24 mb-48">
         <div className="relative w-fit max-w-[47rem] pt-14 pb-20 pr-14 pl-28 flex flex-col gap-8 bordered bg-white">
           <div className="header label left-36">Who We Are</div>
           <text className="header text-black">

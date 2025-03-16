@@ -7,7 +7,7 @@ import TypeWriter from "@/components/Typewriter/Typewriter";
 export default function CardLogo() {
   return (
     <div className="flex items-center justify-center">
-      <div className="relative w-fit mt-[8.5rem] flex bg-white bordered p-[3.5rem] gap-[3.125rem]">
+      <div className="relative w-fit my-[8.5rem] flex bg-white bordered p-[3.5rem] gap-[3.125rem]">
         <Image
           src="./assets/logos/ddc-logo-text-yasified.svg"
           width={476}

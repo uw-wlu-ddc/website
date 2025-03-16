@@ -5,7 +5,7 @@ import CardJoin from "@/app/home/CardJoin";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-y-[8.5rem]">
+    <div className="flex flex-col divide-y-2 divide-black">
       <CardLogo />
       <CardIntro />
       <CardMerch />
