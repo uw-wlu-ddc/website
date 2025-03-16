@@ -19,9 +19,6 @@
     .bordered {
         @apply border-2 border-black border-solid
     }
-    .typeWriter {
-        @apply relative before:absolute before:inset-0 before:bg-white before:animate-typewriter after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black
-    }
     /* Typography Classes */
     .title {
         @apply font-figtree text-title

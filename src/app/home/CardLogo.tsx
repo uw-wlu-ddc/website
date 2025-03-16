@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Icons } from "@/components/Icons";
 import { Faces } from "@/constants/assets";
 import YasButton from "@/components/YasButton";
+import TypeWriter from "@/components/Typewriter/Typewriter";
 
 export default function CardLogo() {
   return (
@@ -15,12 +16,10 @@ export default function CardLogo() {
           priority
         />
         <div className="flex gap-y-16 flex-col">
-          <text className="title text-black">
+          <text className="title text-black pr-[6.25rem]">
             Double <br /> Degree <br /> Club
           </text>
-          <text className="subtitle text-black typeWriter -mt-7">
-            THE BEST OF BOTH WORLDS
-          </text>
+          <TypeWriter className="-mt-7" typedText="The best of both worlds" />
           <YasButton href="#card-intro" doubleShadow={true}>
             <Icons.ArrowDown />
             <text>Who are we?</text>
