@@ -10,6 +10,9 @@
     .label {
         @apply absolute top-0 -translate-y-1/2 bg-black py-4 px-8 text-white
     }
+    .double-button-transition {
+        @apply transition-all hover:translate-x-6 hover:translate-y-6 hover:shadow-none
+    }
     .bordered {
         @apply border-2 border-black border-solid
     }

@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Icons } from "@/components/Icons";
 import { Faces } from "@/constants/assets";
-import { DShadowLabel } from "@/components/Labels";
+import { DoubleSlotButton } from "@/components/Labels";
 
 export default function CardLogo() {
   return (
@@ -22,12 +21,10 @@ export default function CardLogo() {
           <text className="subtitle text-black typeWriter -mt-7">
             THE BEST OF BOTH WORLDS
           </text>
-          <Link href="#card-intro" className="h-[5.625rem]">
-            <DShadowLabel className="gap-2.5" defaultWidth={265} defaultHeight={62}>
-              <Icons.ArrowDown />
-              <text className="subheader">Who are we?</text>
-            </DShadowLabel>
-          </Link>
+          <DoubleSlotButton href="#card-intro">
+            <Icons.ArrowDown />
+            <text>Who are we?</text>
+          </DoubleSlotButton>
         </div>
         <Image
           src={Faces.Wink}

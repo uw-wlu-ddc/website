@@ -119,37 +119,40 @@ const config: Config = {
     // Typewriter Animation
     extend: {
       animation: {
-        typewriter: 'typewriter 2s steps(23) forwards',
-        caret: 'typewriter 2s steps(23) forwards, blink 1s steps(23) infinite 2s',
+        typewriter: "typewriter 2s steps(23) forwards",
+        caret:
+          "typewriter 2s steps(23) forwards, blink 1s steps(23) infinite 2s",
       },
       keyframes: {
         typewriter: {
           to: {
-            left: '100%',
+            left: "100%",
           },
         },
         blink: {
-          '0%': {
-            opacity: '0',
+          "0%": {
+            opacity: "0",
           },
-          '0.1%': {
-            opacity: '1',
+          "0.1%": {
+            opacity: "1",
           },
-          '50%': {
-            opacity: '1',
+          "50%": {
+            opacity: "1",
           },
-          '50.1%': {
-            opacity: '0',
+          "50.1%": {
+            opacity: "0",
           },
-          '100%': {
-            opacity: '0',
+          "100%": {
+            opacity: "0",
           },
         },
       },
     },
     // End of Animation Code
-    container: {
-      center: true,
+    boxShadow: {
+      "double-shadow":
+        "0.75rem 0.75rem 0 0 #20112c, 1.5rem 1.5rem 0 -2px #f9c724, 1.5rem 1.5rem 0 0 black",
+      none: "none",
     },
   },
 };
