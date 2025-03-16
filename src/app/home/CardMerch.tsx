@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ButtonBox from "@/components/ButtonBox";
+import YasButton from "@/components/YasButton";
 import { Icons } from "@/components/Icons";
 import { Merch } from "@/constants/assets";
 import { Links } from "@/constants/urls";
@@ -13,15 +13,13 @@ export default function CardMerch() {
             Rep our program! We're proud to announce our latest{" "}
             <text className="underline">double degree merch</text>.
           </text>
-          <ButtonBox
-            replaceTab={true}
+          <YasButton
             href={Links.Quarterzips}
-            className="absolute right-[8.25rem] bottom-[-1.438rem] h-[3.625rem] w-[12rem] z-30"
+            className="absolute right-[8.25rem] bottom-[-1.5rem]"
           >
             <text className="subheader text-black">Purchase</text>
             <Icons.ArrowRight />
-          </ButtonBox>
-          <div className="absolute right-[7.125rem] bottom-[-2.188rem] h-[3.625rem] w-[12rem] bordered z-20 bg-black" />
+          </YasButton>
         </div>
         <Image
           src={Merch.Quarterzips}

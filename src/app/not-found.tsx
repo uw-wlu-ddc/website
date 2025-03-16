@@ -1,4 +1,4 @@
-import ButtonBox from "@/components/ButtonBox";
+import YasButton from "@/components/YasButton";
 import { Icons } from "@/components/Icons";
 import { Routes } from "@/constants/routes";
 
@@ -10,14 +10,13 @@ export default function NotFound() {
         <text className="subtitle">
           This is not the page you are looking for
         </text>
-        <ButtonBox
-          className="absolute right-[5.25rem] bottom-[-1.5rem] w-[17.5rem] h-[3.875rem] z-20 gap-2"
+        <YasButton
+          className="absolute right-[5.25rem] bottom-[-1.5rem]"
           href={Routes.Home}
         >
           <Icons.ArrowLeft />
-          <text className="subheader">Back to home</text>
-        </ButtonBox>
-        <div className="absolute right-[4.3rem] bottom-[-2.3rem] w-[17.5rem] h-[3.875rem] bordered z-10 bg-black" />
+          <text>Back to home</text>
+        </YasButton>
       </div>
     </div>
   );

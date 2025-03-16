@@ -150,8 +150,9 @@ const config: Config = {
     },
     // End of Animation Code
     boxShadow: {
+      "single-shadow": "0.75rem 0.75rem 0 0 #20112c",
       "double-shadow":
-        "0.75rem 0.75rem 0 0 #20112c, 1.5rem 1.5rem 0 -2px #f9c724, 1.5rem 1.5rem 0 0 black",
+        "0.75rem 0.75rem 0 0 #20112c, 1.5rem 1.5rem 0 -2px #f9c724, 1.5rem 1.5rem 0 0 #20112c",
       none: "none",
     },
   },

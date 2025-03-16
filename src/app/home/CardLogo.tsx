@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Icons } from "@/components/Icons";
 import { Faces } from "@/constants/assets";
-import { YasButton } from "@/components/YasButton";
+import YasButton from "@/components/YasButton";
 
 export default function CardLogo() {
   return (
@@ -21,7 +21,7 @@ export default function CardLogo() {
           <text className="subtitle text-black typeWriter -mt-7">
             THE BEST OF BOTH WORLDS
           </text>
-          <YasButton href="#card-intro">
+          <YasButton href="#card-intro" doubleShadow={true}>
             <Icons.ArrowDown />
             <text>Who are we?</text>
           </YasButton>
