@@ -1,12 +1,13 @@
 import Image from "next/image";
-import ButtonBox from "@/components/ButtonBox";
+import Link from "next/link";
 import { Icons } from "@/components/Icons";
 import { Faces } from "@/constants/assets";
+import { DShadowLabel } from "@/components/Labels";
 
 export default function CardLogo() {
   return (
-    <div className="relative container w-fit mt-[8.5rem] flex bg-white bordered p-[3.5rem] gap-[3.125rem]">
-      <div className="items-start my-auto">
+    <div className="flex items-center justify-center">
+      <div className="relative w-fit mt-[8.5rem] flex bg-white bordered p-[3.5rem] gap-[3.125rem]">
         <Image
           src="./assets/logos/ddc-logo-text-yasified.svg"
           width={476}
@@ -14,35 +15,28 @@ export default function CardLogo() {
           alt=""
           priority
         />
-      </div>
-      <div className="space-y-16">
-        <div className="pe-[0.7rem] space-y-[2.4rem] flex flex-col">
+        <div className="flex gap-y-16 flex-col">
           <text className="title text-black">
             Double <br /> Degree <br /> Club
           </text>
-          <text className="subtitle text-black typeWriter">
+          <text className="subtitle text-black typeWriter -mt-7">
             THE BEST OF BOTH WORLDS
           </text>
+          <Link href="#card-intro" className="h-[5.625rem]">
+            <DShadowLabel className="gap-2.5" defaultWidth={265} defaultHeight={62}>
+              <Icons.ArrowDown />
+              <text className="subheader">Who are we?</text>
+            </DShadowLabel>
+          </Link>
         </div>
-        <div className="relative h-[5.625rem]">
-          <ButtonBox
-            href="#card-intro"
-            className="absolute left-0 top-0 z-40 w-[17.5rem] h-[3.875rem]"
-          >
-            <Icons.ArrowDown />
-            <text className="subheader">Who are we?</text>
-          </ButtonBox>
-          <div className="absolute left-4 top-4 z-30 w-[17.5rem] h-[3.875rem] bg-black bordered" />
-          <div className="absolute left-7 top-7 z-20 w-[17.5rem] h-[3.875rem] bg-yellow bordered" />
-        </div>
+        <Image
+          src={Faces.Wink}
+          width={160}
+          height={160}
+          alt=""
+          className="absolute left-0 -translate-x-[50%] top-[0.75rem]"
+        />
       </div>
-      <Image
-        src={Faces.Wink}
-        width={160}
-        height={160}
-        alt=""
-        className="absolute left-[-5rem] top-[0.75rem]"
-      />
     </div>
   );
 }
