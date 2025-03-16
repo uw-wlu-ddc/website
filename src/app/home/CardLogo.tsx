@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Icons } from "@/components/Icons";
 import { Faces } from "@/constants/assets";
-import { YasButton } from "@/components/Labels";
+import { YasButton } from "@/components/YasButton";
 
 export default function CardLogo() {
   return (
