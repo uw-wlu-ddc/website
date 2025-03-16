@@ -117,9 +117,9 @@ const config: Config = {
       ],
     },
     boxShadow: {
-      "single-shadow": "0.75rem 0.75rem 0 0 #20112c",
+      "single-shadow": "0.75rem 0.75rem 0 0 #20112c !important",
       "double-shadow":
-        "0.75rem 0.75rem 0 0 #20112c, 1.5rem 1.5rem 0 -2px #f9c724, 1.5rem 1.5rem 0 0 #20112c",
+        "0.75rem 0.75rem 0 0 #20112c, 1.5rem 1.5rem 0 -2px #f9c724, 1.5rem 1.5rem 0 0 #20112c !important",
       none: "none",
     },
   },
