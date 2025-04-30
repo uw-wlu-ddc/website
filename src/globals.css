@@ -8,10 +8,10 @@
 
 @layer components {
     .label {
-        @apply absolute top-0 -translate-y-1/2 bg-black py-4 px-8 text-white
+        @apply absolute top-0 -translate-y-1/2 bg-black py-[0.4em] px-[0.7em] text-white
     }
     .headerbox{
-        @apply my-[8.5rem] bg-white py-4 px-32 text-black
+        @apply bg-white py-4 px-[2.7em] text-black
     }
     .single-button-transition {
         @apply transition-all hover:translate-x-3 hover:translate-y-3 hover:shadow-none !important
