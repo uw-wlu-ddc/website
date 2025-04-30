@@ -16,13 +16,13 @@ export default function CardLogo() {
           priority
         />
         <div className="flex gap-y-16 flex-col">
-          <text className="title text-black pr-[6.25rem]">
+          <p className="title text-black pr-[6.25rem]">
             Double <br /> Degree <br /> Club
-          </text>
+          </p>
           <TypeWriter className="-mt-7" typedText="The best of both worlds" />
-          <YasButton href="#card-intro" doubleShadow={true}>
+          <YasButton href="#card-intro" doubleShadow>
             <Icons.ArrowDown />
-            <text>Who are we?</text>
+            <p>Who are we?</p>
           </YasButton>
         </div>
         <Image

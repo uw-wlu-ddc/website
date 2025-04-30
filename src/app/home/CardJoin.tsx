@@ -5,14 +5,14 @@ export default function CardJoin() {
         <div className="header label right-1/2 translate-x-1/2">
           Join DDC!
         </div>
-        <text className="header text-black">
+        <p className="header text-black">
           Joining the DDC exec team is the quickest way to get to know other
           community-oriented double degrees and get involved.
-        </text>
+        </p>
         <div>Placeholder</div>
-        <text className="body text-black text-center">
+        <p className="body text-black text-center">
           Pay attention to your emails for DDC applications!
-        </text>
+        </p>
       </div>
     </div>
   );

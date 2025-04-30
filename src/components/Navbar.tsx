@@ -8,9 +8,9 @@ export default function Navbar() {
     <nav className="fixed w-full top-0 z-50 h-20 px-6 py-2 bg-white bordered shadow flex justify-between">
       <Link className="h-fit items-center inline-flex" href={Routes.Home}>
         <Image src={DDCLogo.NoText} width={54} height={56} priority alt="" />
-        <text className="px-4 font-figtree text-header text-black font-extrabold">
+        <p className="px-4 font-figtree text-header text-black font-extrabold">
           DDC
-        </text>
+        </p>
       </Link>
       <div
         className="subheader text-black items-center inline-flex gap-x-6"
