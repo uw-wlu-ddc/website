@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function CardJoin() {
   return (
     <div className="flex justify-center items-center bg-white/60">
