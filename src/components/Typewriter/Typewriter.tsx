@@ -18,7 +18,7 @@ export default function TypeWriter({typedText, className}: {typedText: string, c
       ease: "easeInOut",
     });
     return controls.stop;
-  }, []);
+  });
 
   return (
     <div className={`subtitle text-black ${className}`}>
