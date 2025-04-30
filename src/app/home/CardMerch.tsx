@@ -10,7 +10,7 @@ export default function CardMerch() {
       <div className="w-[75rem] h-[69rem] relative my-20">
         <div className="relative w-[42.5rem] h-[13.5rem] z-10 p-[3.5rem] bg-white bordered">
           <text className="header text-black">
-            Rep our program! We're proud to announce our latest{" "}
+            Rep our program! We&apos;re proud to announce our latest{" "}
             <text className="underline">double degree merch</text>.
           </text>
           <YasButton
