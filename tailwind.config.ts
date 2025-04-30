@@ -112,6 +112,14 @@ const config: Config = {
           fontWeight: "400",
         },
       ],
+      pageHeading: [
+        "3rem",
+        {
+          lineHeight: "3.3rem",
+          letterSpacing: "-0.048em",
+          fontWeight: "800",
+        },
+      ],
     },
     boxShadow: {
       "single-shadow": "0.75rem 0.75rem 0 0 #20112c !important",
