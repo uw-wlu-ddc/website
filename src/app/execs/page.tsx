@@ -1,4 +1,4 @@
-import ProfileCard from "@/app/execs/ProfileCard";
+import ProfileCard from "@/components/ProfileCard";
 
 export default function Executives() {
   return (
