@@ -4,7 +4,8 @@ Official Repo for the Double Degree Club Website
 
 ## Running
 
-`npm run dev`
+node.js: `npm run dev`
+deno: `deno run dev`
 
 ## Contributors
 - Samuel Bai (Webmaster S24)
