@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Icons } from "@/components/Icons";
-import { Faces } from "@/constants/assets";
+import { Faces, DDCLogo } from "@/constants/assets";
 import YasButton from "@/components/YasButton";
 import TypeWriter from "@/components/Typewriter/Typewriter";
 
@@ -9,7 +9,7 @@ export default function CardLogo() {
     <div className="flex items-center justify-center">
       <div className="relative w-fit my-[8.5rem] flex bg-white bordered p-[3.5rem] gap-[3.125rem]">
         <Image
-          src="./assets/logos/ddc-logo-text-yasified.svg"
+          src={DDCLogo.Yassified}
           width={476}
           height={478}
           alt=""
