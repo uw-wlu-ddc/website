@@ -19,7 +19,7 @@ export default function Navbar() {
         <Link href={Routes.About}>About</Link>
         <Link href={Routes.Constitution}>Constitution</Link>
         <Link href={Routes.Execs}>Execs</Link>
-        <Link href={Routes.Contact}>Contact</Link>
+        <Link href={Routes.Resources}>Contact</Link>
       </div>
     </nav>
   );
