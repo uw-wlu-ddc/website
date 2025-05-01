@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ConstitutionRoutes } from "@/constants/routes";
 
 export default function ConstitutionSideBar() {
@@ -5,33 +6,33 @@ export default function ConstitutionSideBar() {
     <div className="sticky flex flex-col bottom-0 w-fit h-fit top-40 mt-24 self-start px-8 py-10 bg-white/60 bordered">
       <h3 className="subheader label right-1/2 translate-x-1/2">Contents</h3>
       <ul className="subheader flex flex-col justify-start gap-3">
-        <a href={ConstitutionRoutes.Root} className="hover:underline">
+        <Link href={ConstitutionRoutes.Root} className="hover:underline">
           See All
-        </a>
-        <a href={ConstitutionRoutes.Principles} className="hover:underline">
+        </Link>
+        <Link href={ConstitutionRoutes.Principles} className="hover:underline">
           Article I: Principles
-        </a>
-        <a
+        </Link>
+        <Link
           href={ConstitutionRoutes.GeneralMembership}
           className="hover:underline"
         >
           Article II: General Membership
-        </a>
-        <a href={ConstitutionRoutes.Executive} className="hover:underline">
+        </Link>
+        <Link href={ConstitutionRoutes.Executive} className="hover:underline">
           Article III: Executive
-        </a>
-        <a
+        </Link>
+        <Link
           href={ConstitutionRoutes.ElectionsAndReferenda}
           className="hover:underline"
         >
           Article IV: Elections and Referenda
-        </a>
-        <a href={ConstitutionRoutes.Amendments} className="hover:underline">
+        </Link>
+        <Link href={ConstitutionRoutes.Amendments} className="hover:underline">
           Article V: Amendments
-        </a>
-        <a href={ConstitutionRoutes.Dissolution} className="hover:underline">
+        </Link>
+        <Link href={ConstitutionRoutes.Dissolution} className="hover:underline">
           Article VI: Dissolution
-        </a>
+        </Link>
       </ul>
     </div>
   );
