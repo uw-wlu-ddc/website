@@ -1,7 +1,16 @@
+import ExecCard from "@/app/execs/ExecCard";
+
 export default function Executives() {
   return (
     <div className="flex flex-col items-center mb-28 ">
-      <p className="mb-16 mt-32 grow-0 page-header headerbox bordered">Executive</p>
+      <h2 className="mb-16 mt-32 grow-0 page-header headerbox bordered">
+        Executive
+      </h2>
+      <div className="grid grid-cols-3 gap-6">
+        {Array.from({ length: 10 }).map((_, index) => (
+          <ExecCard key={index} />
+        ))}
+      </div>
     </div>
   );
 }
