@@ -1,4 +1,4 @@
-import ExecCard from "@/app/execs/ExecCard";
+import ProfileCard from "@/app/execs/ProfileCard";
 
 export default function Executives() {
   return (
@@ -8,7 +8,7 @@ export default function Executives() {
       </h2>
       <div className="grid grid-cols-3 gap-6">
         {Array.from({ length: 10 }).map((_, index) => (
-          <ExecCard key={index} />
+          <ProfileCard name="Ken Jackson" role="President" contact="president@ddclub.ca" key={index} />
         ))}
       </div>
     </div>
