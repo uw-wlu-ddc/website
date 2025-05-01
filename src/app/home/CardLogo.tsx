@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Icons } from "@/components/Icons";
+import { ArrowDown } from "lucide-react";
 import { Faces, DDCLogo } from "@/constants/assets";
 import YasButton from "@/components/YasButton";
 import TypeWriter from "@/components/Typewriter/Typewriter";
@@ -21,7 +21,7 @@ export default function CardLogo() {
           </p>
           <TypeWriter className="-mt-7" typedText="The best of both worlds" />
           <YasButton href="#card-intro" doubleShadow>
-            <Icons.ArrowDown />
+            <ArrowDown />
             <p>Who are we?</p>
           </YasButton>
         </div>

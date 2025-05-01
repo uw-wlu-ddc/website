@@ -1,6 +1,6 @@
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import YasButton from "@/components/YasButton";
-import { Icons } from "@/components/Icons";
 import { Merch } from "@/constants/assets";
 import { Links } from "@/constants/urls";
 
@@ -18,7 +18,7 @@ export default function CardMerch() {
             className="absolute right-[8.25rem] bottom-[-1.5rem]"
           >
             <p className="subheader text-black">Purchase</p>
-            <Icons.ArrowRight />
+            <ArrowRight />
           </YasButton>
         </div>
         <Image

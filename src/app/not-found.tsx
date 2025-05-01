@@ -1,5 +1,5 @@
 import YasButton from "@/components/YasButton";
-import { Icons } from "@/components/Icons";
+import { ArrowLeft } from "lucide-react";
 import { Routes } from "@/constants/routes";
 
 export default function NotFound() {
@@ -14,7 +14,7 @@ export default function NotFound() {
           className="absolute right-[5.25rem] bottom-[-1.5rem]"
           href={Routes.Home}
         >
-          <Icons.ArrowLeft />
+          <ArrowLeft />
           <p>Back to home</p>
         </YasButton>
       </div>
