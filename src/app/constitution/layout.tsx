@@ -4,7 +4,7 @@ import ConstitutionSideBar from "./ConstitutionSideBar";
 
 export default function ConstitutionLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <div className="flex flex-col items-center justify-center mb-28">
+    <div className="flex flex-col items-center mb-28">
       <h1 className="mt-32 mb-16 page-header headerbox bordered">
         Constitution
       </h1>
