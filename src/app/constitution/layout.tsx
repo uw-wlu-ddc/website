@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { frontmatter } from "@/markdown/constitution/constitution.mdx";
 import ConstitutionSideBar from "./ConstitutionSideBar";
 
