@@ -9,7 +9,7 @@ export default function YasButton({
 }: {
   className?: string;
   href: string;
-  children: ReactNode;
+  children?: ReactNode;
   doubleShadow?: boolean;
 }) {
 
