@@ -33,7 +33,7 @@ export default function CardIntro() {
             href={Links.Instagram}
           >
             VIEW OUR EVENTS ON INSTAGRAM
-            <br />@<p className="underline">DOUBLEDEGREECLUB</p>
+            <br />@<span className="underline">DOUBLEDEGREECLUB</span>
           </Link>
           <Image
             src={Faces.Smile}
