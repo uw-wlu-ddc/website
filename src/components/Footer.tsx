@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="flex flex-col w-[18.75rem] gap-y-2">
           <p className="ddc-subheader">Resources</p>
           <ul className="ddc-body underline flex flex-col w-fit">
-            <Link href={Links.CSBBAFAQ}>CS/BBA and Math/BBA FAQ</Link>
+            <Link href={Links.CSBBAFAQ}>CS/BBA FAQ</Link>
             <Link href={Links.EasterEgg}>Easter egg!</Link>
           </ul>
         </div>
