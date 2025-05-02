@@ -7,13 +7,13 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 z-50 px-6 py-2 bg-white flex justify-between border-b-2 border-black">
       <Link
-        className="flex items-center gap-4 header text-black font-extrabold"
+        className="flex items-center gap-4 ddc-header text-black font-extrabold"
         href={Routes.Home}
       >
         <Image src={DDCLogo.NoText} width={54} height={56} alt="" />
         DDC
       </Link>
-      <ul className="subheader text-black flex items-center gap-x-6">
+      <ul className="ddc-subheader text-black flex items-center gap-x-6">
         <Link href={Routes.Home}>Home</Link>
         <Link href={Routes.About}>About</Link>
         <Link href={Routes.Constitution}>Constitution</Link>

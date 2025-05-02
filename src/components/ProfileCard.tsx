@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Headshots } from "@/constants/assets";
-import { p } from "framer-motion/client";
+
+const cardTransitionClasses = "transition-all hover:!-translate-x-3 hover:!-translate-y-3 hover:!shadow-single-shadow"
 
 export default function ProfileCard({
   name,
@@ -17,7 +18,7 @@ export default function ProfileCard({
 }) {
   return (
     <button
-      className={`px-8 py-6 flex flex-col items-start bg-white/60 ddc-border card-transition ${className}`}
+      className={`px-8 py-6 bg-white/60 ddc-border ${cardTransitionClasses} ${className}`}
     >
       <Image
         src={photoSrc}
@@ -27,9 +28,9 @@ export default function ProfileCard({
         className="ddc-border"
       />
       <div className="mt-6 gap-2 flex flex-col items-start">
-        <h3 className="subheader text-black">{name}</h3>
-        <p className="body text-body/[110%] text-black/60">{role}</p>
-        <p className="body text-body/[110%] text-black/60">{contact}</p>
+        <h3 className="ddc-subheader text-black">{name}</h3>
+        <p className="font-baskerville text-body/[110%] text-black/60">{role}</p>
+        <p className="font-baskerville text-body/[110%] text-black/60">{contact}</p>
       </div>
     </button>
   );

@@ -21,7 +21,7 @@ export default function TypeWriter({typedText, className}: {typedText: string, c
   });
 
   return (
-    <div className={`subtitle text-black ${className}`}>
+    <div className={`ddc-subtitle text-black ${className}`}>
       <motion.span>{displayText}</motion.span>
       <CursorBlinker />
     </div>
