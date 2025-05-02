@@ -6,17 +6,17 @@ import { Routes } from "@/constants/routes";
 
 export default function Footer() {
   return (
-    <footer className="bg-white px-[9.25rem] py-16 flex items-center bordered">
+    <footer className="bg-white px-[9.25rem] py-16 flex items-center border-t-2 border-black">
       <div className="flex w-[71.5rem] gap-x-3 text-black">
         <div className="w-[18.75rem] flex flex-col gap-y-2">
           <p className="subheader">Double Degree Club</p>
-          <div className="body underline flex flex-col gap-y-2 w-fit">
+          <ul className="body underline flex flex-col gap-y-2 w-fit">
             <Link href={Routes.Home}>Home</Link>
             <Link href={Routes.About}>About</Link>
             <Link href={Routes.Constitution}>Constitution</Link>
             <Link href={Routes.Execs}>Execs</Link>
-            <Link href={Routes.Resources}>Contact</Link>
-          </div>
+            <Link href={Routes.Resources}>Resources</Link>
+          </ul>
         </div>
         <div className="flex flex-col w-[18.75rem] gap-y-2">
           <p className="subheader">Connect</p>
