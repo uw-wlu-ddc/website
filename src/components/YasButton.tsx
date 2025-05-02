@@ -1,6 +1,9 @@
 import { ReactNode } from "react";
 import Link from "next/link";
 
+const singleShadowClasses = "shadow-single-shadow transition-all hover:!translate-x-3 hover:!translate-y-3 hover:!shadow-none";
+const doubleShadowClasses = "shadow-double-shadow transition-all hover:!translate-x-6 hover:!translate-y-6 hover:!shadow-none";
+
 export default function YasButton({
   className,
   href,
@@ -13,12 +16,12 @@ export default function YasButton({
   doubleShadow?: boolean;
 }) {
 
-  const shadowClass = doubleShadow ? "shadow-double-shadow double-button-transition" : "shadow-single-shadow single-button-transition";
+  const shadowClasses = doubleShadow ? doubleShadowClasses : singleShadowClasses;
 
   return (
     <Link
       href={href}
-      className={`gap-2.5 w-fit subheader px-[3.125rem] py-4 bg-white flex justify-center items-center ddc-border ${shadowClass} ${className}`}
+      className={`gap-2.5 w-fit px-[3.125rem] py-4 bg-white ddc-border ${shadowClasses} ${className}`}
     >
       {children}
     </Link>
