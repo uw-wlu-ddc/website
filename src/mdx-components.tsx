@@ -10,6 +10,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ul: (props: JSX.IntrinsicElements['ul']) => <ul  className="ddc-body text-black list-inside list-disc" {...props} />,
     ol: (props: JSX.IntrinsicElements['ol']) => <ol  className="ddc-body text-black list-outside ddc-md-ol" {...props} />,
     li: (props: JSX.IntrinsicElements['li']) => <li  className="" {...props} />,
+    strong: (props: JSX.IntrinsicElements['strong']) => <span className="font-bold" {...props} />,
     ...components,
   }
 }
