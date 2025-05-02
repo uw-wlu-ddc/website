@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 import Link from "next/link";
 
-const singleShadowClasses = "shadow-single-shadow transition-all hover:!translate-x-3 hover:!translate-y-3 hover:!shadow-none";
-const doubleShadowClasses = "shadow-double-shadow transition-all hover:!translate-x-6 hover:!translate-y-6 hover:!shadow-none";
+const singleShadowClasses = "shadow-singleShadow transition-all hover:!translate-x-3 hover:!translate-y-3 hover:!shadow-none";
+const doubleShadowClasses = "shadow-doubleShadow transition-all hover:!translate-x-6 hover:!translate-y-6 hover:!shadow-none";
 
 export default function YasButton({
   className,
