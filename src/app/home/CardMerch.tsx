@@ -7,7 +7,7 @@ import { Links } from "@/constants/urls";
 export default function CardMerch() {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-[75rem] h-[69rem] relative my-20">
+      <div className="w-[75rem] h-[69rem] flex flex-col my-20">
         <div className="relative w-[42.5rem] h-[13.5rem] z-10 p-[3.5rem] bg-white ddc-border">
           <p className="header text-black">
             Rep our program! We&apos;re proud to announce our latest{" "}
@@ -15,10 +15,9 @@ export default function CardMerch() {
           </p>
           <YasButton
             href={Links.Quarterzips}
-            className="absolute right-[8.25rem] bottom-[-1.5rem]"
+            className="absolute right-[8.25rem] bottom-[-1.5rem] flex subheader text-black"
           >
-            <p className="subheader text-black">Purchase</p>
-            <ArrowRight />
+            Purchase <ArrowRight />
           </YasButton>
         </div>
         <Image
@@ -26,7 +25,7 @@ export default function CardMerch() {
           width={854}
           height={900}
           alt=""
-          className="absolute left-[10.625rem] bottom-0"
+          className="self-center"
         />
       </div>
     </div>
