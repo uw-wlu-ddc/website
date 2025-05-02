@@ -22,9 +22,10 @@
     .card-transition {
         @apply transition-all hover:-translate-x-3 hover:-translate-y-3 hover:shadow-single-shadow !important
     }
-    .bordered {
-        @apply border-2 border-black border-solid
+    .ddc-border {
+        @apply border-2 border-black
     }
+    
     /* Typography Classes */
     .title {
         @apply font-figtree text-title

@@ -10,7 +10,7 @@ export default function CardIntro() {
       className="flex bg-white/60 justify-center items-center"
     >
       <div className="flex gap-20 mt-24 mb-48">
-        <div className="relative w-fit max-w-[47rem] pt-14 pb-20 pr-14 pl-28 flex flex-col gap-8 bordered bg-white">
+        <div className="relative w-fit max-w-[47rem] pt-14 pb-20 pr-14 pl-28 flex flex-col gap-8 ddc-border bg-white">
           <div className="header label left-36">Who We Are</div>
           <p className="header text-black">
             The DDC is an official, UW and WLU registered, student-run

@@ -17,14 +17,14 @@ export default function ProfileCard({
 }) {
   return (
     <button
-      className={`px-8 py-6 flex flex-col items-start bg-white/60 bordered card-transition ${className}`}
+      className={`px-8 py-6 flex flex-col items-start bg-white/60 ddc-border card-transition ${className}`}
     >
       <Image
         src={photoSrc}
         width={252}
         height={252}
         alt="Ken Jackson"
-        className="bordered"
+        className="ddc-border"
       />
       <div className="mt-6 gap-2 flex flex-col items-start">
         <h3 className="subheader text-black">{name}</h3>

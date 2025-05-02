@@ -8,7 +8,7 @@ export default function CardMerch() {
   return (
     <div className="flex items-center justify-center">
       <div className="w-[75rem] h-[69rem] relative my-20">
-        <div className="relative w-[42.5rem] h-[13.5rem] z-10 p-[3.5rem] bg-white bordered">
+        <div className="relative w-[42.5rem] h-[13.5rem] z-10 p-[3.5rem] bg-white ddc-border">
           <p className="header text-black">
             Rep our program! We&apos;re proud to announce our latest{" "}
             <span className="underline">double degree merch</span>.

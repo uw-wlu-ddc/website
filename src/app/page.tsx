@@ -14,7 +14,7 @@ export default function Home() {
         // LUMA Embed reference
         /* <iframe
           src="https://lu.ma/embed/event/evt-lgj5l3mbcgrrnCB/simple"
-          className="h-full w-[37.5rem] bordered"
+          className="h-full w-[37.5rem] ddc-border"
           allowFullScreen
           aria-hidden="false"
           tabIndex={0}

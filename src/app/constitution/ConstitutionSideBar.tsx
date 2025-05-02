@@ -3,7 +3,7 @@ import { ConstitutionRoutes } from "@/constants/routes";
 
 export default function ConstitutionSideBar() {
   return (
-    <div className="sticky flex flex-col bottom-0 w-fit h-fit top-40 mt-24 self-start px-8 py-10 bg-white/60 bordered">
+    <div className="sticky flex flex-col bottom-0 w-fit h-fit top-40 mt-24 self-start px-8 py-10 bg-white/60 ddc-border">
       <h3 className="subheader label right-1/2 translate-x-1/2">Contents</h3>
       <ul className="subheader flex flex-col justify-start gap-3">
         <Link href={ConstitutionRoutes.Root} className="hover:underline">

@@ -18,7 +18,7 @@ export default function YasButton({
   return (
     <Link
       href={href}
-      className={`gap-2.5 w-fit subheader px-[3.125rem] py-4 bg-white flex justify-center items-center bordered ${shadowClass} ${className}`}
+      className={`gap-2.5 w-fit subheader px-[3.125rem] py-4 bg-white flex justify-center items-center ddc-border ${shadowClass} ${className}`}
     >
       {children}
     </Link>
