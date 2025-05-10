@@ -1,0 +1,1 @@
+export const ConstitutionPath = "src/markdown/constitution/page.mdx"

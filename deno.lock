@@ -12,6 +12,7 @@
     "npm:eslint@^9.25.1": "9.25.1",
     "npm:framer-motion@^12.5.0": "12.9.2_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:lucide-react@0.477": "0.477.0_react@19.1.0",
+    "npm:next-mdx-remote@5": "5.0.0_react@19.1.0_@types+react@18.3.11",
     "npm:next@^15.3.1": "15.3.1_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:postcss@8": "8.4.47",
     "npm:react-dom@^19.1.0": "19.1.0_react@19.1.0",
@@ -24,6 +25,17 @@
   "npm": {
     "@alloc/quick-lru@5.2.0": {
       "integrity": "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="
+    },
+    "@babel/code-frame@7.27.1": {
+      "integrity": "sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==",
+      "dependencies": [
+        "@babel/helper-validator-identifier",
+        "js-tokens",
+        "picocolors@1.1.1"
+      ]
+    },
+    "@babel/helper-validator-identifier@7.27.1": {
+      "integrity": "sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow=="
     },
     "@emnapi/core@1.4.3": {
       "integrity": "sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g==",
@@ -2093,7 +2105,7 @@
       "integrity": "sha512-TqICwyvJJpBwvGAMZjj4J2n0X8QWp21b9l0o7eXyVJ25YNWYbJDVIyD1bZXE6WtV6RmKJVYmQAKWa0zWOABz2w==",
       "dependencies": [
         "@types/mdast",
-        "unist-util-is"
+        "unist-util-is@6.0.0"
       ]
     },
     "mdast-util-to-hast@13.2.0": {
@@ -2451,6 +2463,18 @@
     },
     "natural-compare@1.4.0": {
       "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="
+    },
+    "next-mdx-remote@5.0.0_react@19.1.0_@types+react@18.3.11": {
+      "integrity": "sha512-RNNbqRpK9/dcIFZs/esQhuLA8jANqlH694yqoDBK8hkVdJUndzzGmnPHa2nyi90N4Z9VmzuSWNRpr5ItT3M7xQ==",
+      "dependencies": [
+        "@babel/code-frame",
+        "@mdx-js/mdx",
+        "@mdx-js/react",
+        "react",
+        "unist-util-remove",
+        "vfile",
+        "vfile-matter"
+      ]
     },
     "next@15.3.1_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
       "integrity": "sha512-8+dDV0xNLOgHlyBxP1GwHGVaNXsmp+2NhZEYrXr24GWLHtt27YrBPbPuHvzlhi7kZNYjeJNR93IF5zfFu5UL0g==",
@@ -3330,6 +3354,12 @@
         "vfile"
       ]
     },
+    "unist-util-is@5.2.1": {
+      "integrity": "sha512-u9njyyfEh43npf1M+yGKDGVPbY/JWEemg5nH05ncKPfi+kBbKBJoTdsogMu33uhytuLlv9y0O7GH7fEdwLdLQw==",
+      "dependencies": [
+        "@types/unist@2.0.11"
+      ]
+    },
     "unist-util-is@6.0.0": {
       "integrity": "sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==",
       "dependencies": [
@@ -3360,25 +3390,40 @@
         "@types/unist@3.0.3"
       ]
     },
+    "unist-util-remove@3.1.1": {
+      "integrity": "sha512-kfCqZK5YVY5yEa89tvpl7KnBBHu2c6CzMkqHUrlOqaRgGOMp0sMvwWOVrbAtj03KhovQB7i96Gda72v/EFE0vw==",
+      "dependencies": [
+        "@types/unist@2.0.11",
+        "unist-util-is@5.2.1",
+        "unist-util-visit-parents@5.1.3"
+      ]
+    },
     "unist-util-stringify-position@4.0.0": {
       "integrity": "sha512-0ASV06AAoKCDkS2+xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO+UxZf18j8FCF6kmzCZKcAgN/yu2gm2XgQ==",
       "dependencies": [
         "@types/unist@3.0.3"
       ]
     },
+    "unist-util-visit-parents@5.1.3": {
+      "integrity": "sha512-x6+y8g7wWMyQhL1iZfhIPhDAs7Xwbn9nRosDXl7qoPTSCy0yNxnKc+hWokFifWQIDGi154rdUqKvbCa4+1kLhg==",
+      "dependencies": [
+        "@types/unist@2.0.11",
+        "unist-util-is@5.2.1"
+      ]
+    },
     "unist-util-visit-parents@6.0.1": {
       "integrity": "sha512-L/PqWzfTP9lzzEa6CKs0k2nARxTdZduw3zyh8d2NVBnsyvHjSX4TWse388YrrQKbvI8w20fGjGlhgT96WwKykw==",
       "dependencies": [
         "@types/unist@3.0.3",
-        "unist-util-is"
+        "unist-util-is@6.0.0"
       ]
     },
     "unist-util-visit@5.0.0": {
       "integrity": "sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==",
       "dependencies": [
         "@types/unist@3.0.3",
-        "unist-util-is",
-        "unist-util-visit-parents"
+        "unist-util-is@6.0.0",
+        "unist-util-visit-parents@6.0.1"
       ]
     },
     "unrs-resolver@1.7.2": {
@@ -3412,6 +3457,13 @@
     },
     "util-deprecate@1.0.2": {
       "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
+    },
+    "vfile-matter@5.0.1": {
+      "integrity": "sha512-o6roP82AiX0XfkyTHyRCMXgHfltUNlXSEqCIS80f+mbAyiQBE2fxtDVMtseyytGx75sihiJFo/zR6r/4LTs2Cw==",
+      "dependencies": [
+        "vfile",
+        "yaml"
+      ]
     },
     "vfile-message@4.0.2": {
       "integrity": "sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==",
@@ -3525,6 +3577,7 @@
         "npm:eslint@^9.25.1",
         "npm:framer-motion@^12.5.0",
         "npm:lucide-react@0.477",
+        "npm:next-mdx-remote@5",
         "npm:next@^15.3.1",
         "npm:postcss@8",
         "npm:react-dom@^19.1.0",
