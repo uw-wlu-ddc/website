@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Headshots } from "@/constants/assets";
 
-const cardTransitionClasses = "transition-all hover:!-translate-x-3 hover:!-translate-y-3 hover:!shadow-single-shadow"
+const cardTransitionClasses = "transition-all hover:!-translate-x-3 hover:!-translate-y-3 hover:!shadow-singleShadow";
 
 export default function ProfileCard({
   name,
