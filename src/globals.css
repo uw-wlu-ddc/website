@@ -7,35 +7,35 @@
 @tailwind utilities;
 
 @layer components {
-    .ddc-label {
-        @apply absolute top-0 -translate-y-1/2 bg-black py-[0.4em] px-[0.7em] text-white
-    }
-    .ddc-headerbox{
-        @apply bg-white py-4 px-[2.7em] text-black
-    }
-    .ddc-border {
-        @apply border-2 border-black
-    }
-    
-    /* Typography Classes */
-    .ddc-title {
-        @apply font-figtree text-title
-    }
-    .ddc-subtitle {
-        @apply font-dm text-subtitle uppercase
-    }
-    .ddc-header {
-        @apply font-figtree text-header
-    }
-    .ddc-subheader {
-        @apply font-figtree text-subheader
-    }
-    .ddc-body {
-        @apply font-baskerville text-body
-    }
-    .ddc-page-header {
-        @apply font-figtree text-pageHeader
-    }
+  .ddc-label {
+      @apply absolute top-0 -translate-y-1/2 bg-black py-[0.4em] px-[0.7em] text-white
+  }
+  .ddc-headerbox{
+      @apply bg-white py-4 px-[2.7em] text-black
+  }
+  .ddc-border {
+      @apply border-2 border-black
+  }
+  
+  /* Typography Classes */
+  .ddc-display {
+      @apply font-figtree text-title
+  }
+  .ddc-subtitle {
+      @apply font-dm text-subtitle uppercase
+  }
+  .ddc-header {
+      @apply font-figtree text-header
+  }
+  .ddc-subheader {
+      @apply font-figtree text-subheader
+  }
+  .ddc-body {
+      @apply font-baskerville text-body
+  }
+  .ddc-title {
+      @apply font-figtree text-pageHeader
+  }
 
   /* 1st, 2nd, and 3rd level list markers and indentations*/
   /* First level */

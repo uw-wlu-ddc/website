@@ -73,11 +73,19 @@ const config: Config = {
       baskerville: ["Libre Baskerville", "serif"],
     },
     fontSize: {
-      title: [
+      display: [
         "4.5rem",
         {
           lineHeight: "4.95rem",
           letterSpacing: "-0.02em",
+          fontWeight: "800",
+        },
+      ],
+      title: [
+        "3rem",
+        {
+          lineHeight: "3.3rem",
+          letterSpacing: "-0.048em",
           fontWeight: "800",
         },
       ],
@@ -110,14 +118,6 @@ const config: Config = {
         {
           lineHeight: "2rem",
           fontWeight: "400",
-        },
-      ],
-      pageHeader: [
-        "3rem",
-        {
-          lineHeight: "3.3rem",
-          letterSpacing: "-0.048em",
-          fontWeight: "800",
         },
       ],
     },
