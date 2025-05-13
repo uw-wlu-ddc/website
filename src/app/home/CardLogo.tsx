@@ -16,7 +16,7 @@ export default function CardLogo() {
           priority
         />
         <div className="flex gap-y-16 flex-col">
-          <p className="ddc-title text-black pr-[6.25rem]">
+          <p className="ddc-display text-black pr-[6.25rem]">
             Double <br /> Degree <br /> Club
           </p>
           <TypeWriter className="-mt-7" typedText="The best of both worlds" />
