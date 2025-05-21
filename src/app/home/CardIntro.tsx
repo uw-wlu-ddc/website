@@ -6,7 +6,7 @@ import { Links } from "@/constants/urls";
 export default function CardIntro() {
   return (
     <div
-      id="card-intro"
+      id="introduction"
       className="flex bg-white/60 justify-center items-center"
     >
       <div className="flex gap-20 mt-24 mb-48">
