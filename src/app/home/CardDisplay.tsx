@@ -16,14 +16,14 @@ export default function CardDisplay() {
           priority
         />
         <div className="flex gap-y-16 flex-col">
-          <p className="ddc-display text-black pr-[6.25rem]">
+          <h1 className="pr-[6.25rem]">
             Double <br /> Degree <br /> Club
-          </p>
-          <DisplayTypewriter className="ddc-subtitle text-black -mt-7" />
+          </h1>
+          <DisplayTypewriter className="-mt-7" />
           <YasButton
             href="#introduction"
             doubleShadow
-            className="ddc-subheader flex text-black"
+            className="font-figtree text-subheader flex"
           >
             <ArrowDown />
             Who are we?

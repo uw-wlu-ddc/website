@@ -28,9 +28,9 @@ export default function ProfileCard({
         className="ddc-border"
       />
       <div className="mt-6 gap-2 flex flex-col items-start">
-        <h3 className="ddc-subheader text-black">{name}</h3>
-        <p className="font-baskerville text-body/[110%] text-black/60">{role}</p>
-        <p className="font-baskerville text-body/[110%] text-black/60">{contact}</p>
+        <h3>{name}</h3>
+        <p className="text-body/[110%] text-black/60">{role}</p>
+        <p className="text-body/[110%] text-black/60">{contact}</p>
       </div>
     </button>
   );

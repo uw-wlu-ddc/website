@@ -22,7 +22,7 @@ export default function ConstitutionArticle({ slug }: { slug?: string[] }) {
 
   return (
     <div className="flex flex-col justify-start">
-      <h4 className="ddc-subtitle my-2">
+      <h4 className="my-2">
         Last amended: {frontmatter.revision}
       </h4>
       <div className="px-28 pb-16 w-[58rem] min-h-[28rem] flex flex-col items-start bg-white/60 ddc-border">

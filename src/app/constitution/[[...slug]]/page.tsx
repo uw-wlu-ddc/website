@@ -22,9 +22,9 @@ export default async function ConstitutionPage({
   const { slug } = await params;
   return (
     <div className="flex flex-col items-center mb-28">
-      <h1 className="mt-32 mb-16 ddc-header ddc-headerbox ddc-border">
+      <h2 className="mt-32 mb-16 ddc-headerbox ddc-border">
         Constitution
-      </h1>
+      </h2>
       <div className="flex item-start gap-7">
         <ConstitutionSideBar />
         <ConstitutionArticle slug={slug} />
