@@ -10,7 +10,6 @@
     "npm:@types/react@18": "18.3.11",
     "npm:eslint-config-next@^15.3.1": "15.3.1_eslint@9.25.1_typescript@5.6.2_@typescript-eslint+parser@8.31.1__eslint@9.25.1__typescript@5.6.2_eslint-plugin-import@2.31.0__eslint@9.25.1",
     "npm:eslint@^9.25.1": "9.25.1",
-    "npm:framer-motion@^12.5.0": "12.9.2_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:lucide-react@0.477": "0.477.0_react@19.1.0",
     "npm:next-mdx-remote@5": "5.0.0_react@19.1.0_@types+react@18.3.11",
     "npm:next@^15.3.1": "15.3.1_react@19.1.0_react-dom@19.1.0__react@19.1.0",
@@ -20,6 +19,7 @@
     "npm:remark-frontmatter@5": "5.0.0",
     "npm:remark-mdx-frontmatter@^5.1.0": "5.1.0",
     "npm:tailwindcss@3.4.17": "3.4.17_postcss@8.4.47",
+    "npm:typeit-react@^2.7.8": "2.7.8_react@19.1.0_react-dom@19.1.0__react@19.1.0",
     "npm:typescript@5": "5.6.2"
   },
   "npm": {
@@ -219,12 +219,12 @@
     "@isaacs/cliui@8.0.2": {
       "integrity": "sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==",
       "dependencies": [
-        "string-width-cjs@npm:string-width@4.2.3",
         "string-width@5.1.2",
-        "strip-ansi-cjs@npm:strip-ansi@6.0.1",
+        "string-width-cjs@npm:string-width@4.2.3",
         "strip-ansi@7.1.0",
-        "wrap-ansi-cjs@npm:wrap-ansi@7.0.0",
-        "wrap-ansi@8.1.0"
+        "strip-ansi-cjs@npm:strip-ansi@6.0.1",
+        "wrap-ansi@8.1.0",
+        "wrap-ansi-cjs@npm:wrap-ansi@7.0.0"
       ]
     },
     "@jridgewell/gen-mapping@0.3.8": {
@@ -291,7 +291,7 @@
       "integrity": "sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==",
       "dependencies": [
         "@types/mdx",
-        "@types/react",
+        "@types/react@18.3.11",
         "react"
       ]
     },
@@ -439,7 +439,13 @@
     "@types/react-dom@18.3.0": {
       "integrity": "sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==",
       "dependencies": [
-        "@types/react"
+        "@types/react@18.3.11"
+      ]
+    },
+    "@types/react-dom@19.1.5_@types+react@19.1.4": {
+      "integrity": "sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==",
+      "dependencies": [
+        "@types/react@19.1.4"
       ]
     },
     "@types/react@18.3.11": {
@@ -449,11 +455,20 @@
         "csstype"
       ]
     },
+    "@types/react@19.1.4": {
+      "integrity": "sha512-EB1yiiYdvySuIITtD5lhW4yPyJ31RkJkkDw794LaQYrxCSaQV/47y5o1FMC4zF9ZyjUjzJMZwbovEnT5yHTW6g==",
+      "dependencies": [
+        "csstype"
+      ]
+    },
     "@types/unist@2.0.11": {
       "integrity": "sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA=="
     },
     "@types/unist@3.0.3": {
       "integrity": "sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q=="
+    },
+    "@types/web-animations-js@2.2.16": {
+      "integrity": "sha512-ATELeWMFwj8eQiH0KmvsCl1V2lu/qx/CjOBmv4ADSZS5u8r4reMyjCXtxG7khqyiwH3IOMNdrON/Ugn94OUcRA=="
     },
     "@typescript-eslint/eslint-plugin@8.31.1_@typescript-eslint+parser@8.31.1__eslint@9.25.1__typescript@5.6.2_eslint@9.25.1_typescript@5.6.2": {
       "integrity": "sha512-oUlH4h1ABavI4F0Xnl8/fOtML/eu8nI2A1nYd+f+55XI0BLu+RIqKoCiZKNo6DtqZBEQm5aNKA20G3Z5w3R6GQ==",
@@ -1340,8 +1355,8 @@
     "espree@10.3.0_acorn@8.14.1": {
       "integrity": "sha512-0QYC8b24HWY8zjRnDTL6RiHfDbAWn63qb4LMj1Z4b076A4une81+z03Kg7l7mn/48PUTqoLptSXez8oknU8Clg==",
       "dependencies": [
-        "acorn-jsx@5.3.2_acorn@8.14.1",
         "acorn@8.14.1",
+        "acorn-jsx@5.3.2_acorn@8.14.1",
         "eslint-visitor-keys@4.2.0"
       ]
     },
@@ -1509,16 +1524,6 @@
     },
     "format@0.2.2": {
       "integrity": "sha512-wzsgA6WOq+09wrU1tsJ09udeR/YZRaeArL9e1wPbFg3GG2yDnC2ldKpxs4xunpFF9DgqCqOIra3bc1HWrJ37Ww=="
-    },
-    "framer-motion@12.9.2_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
-      "integrity": "sha512-R0O3Jdqbfwywpm45obP+8sTgafmdEcUoShQTAV+rB5pi+Y1Px/FYL5qLLRe5tPtBdN1J4jos7M+xN2VV2oEAbQ==",
-      "dependencies": [
-        "motion-dom",
-        "motion-utils",
-        "react",
-        "react-dom",
-        "tslib"
-      ]
     },
     "fsevents@2.3.3": {
       "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
@@ -2226,8 +2231,8 @@
     "micromark-extension-mdxjs@3.0.0_acorn@8.12.1": {
       "integrity": "sha512-A873fJfhnJ2siZyUrJ31l34Uqwy4xIFmvPY1oj+Ean5PHcPBYzEsvqvWGaWcfEIr11O5Dlw3p2y0tZWpKHDejQ==",
       "dependencies": [
-        "acorn-jsx@5.3.2_acorn@8.12.1",
         "acorn@8.12.1",
+        "acorn-jsx@5.3.2_acorn@8.12.1",
         "micromark-extension-mdx-expression",
         "micromark-extension-mdx-jsx",
         "micromark-extension-mdx-md",
@@ -2434,15 +2439,6 @@
     },
     "minipass@7.1.2": {
       "integrity": "sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw=="
-    },
-    "motion-dom@12.9.1": {
-      "integrity": "sha512-xqXEwRLDYDTzOgXobSoWtytRtGlf7zdkRfFbrrdP7eojaGQZ5Go4OOKtgnx7uF8sAkfr1ZjMvbCJSCIT2h6fkQ==",
-      "dependencies": [
-        "motion-utils"
-      ]
-    },
-    "motion-utils@12.8.3": {
-      "integrity": "sha512-GYVauZEbca8/zOhEiYOY9/uJeedYQld6co/GJFKOy//0c/4lDqk0zB549sBYqqV2iMuX+uHrY1E5zd8A2L+1Lw=="
     },
     "ms@2.1.3": {
       "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
@@ -2652,8 +2648,8 @@
     "postcss-import@15.1.0_postcss@8.4.47": {
       "integrity": "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==",
       "dependencies": [
-        "postcss-value-parser",
         "postcss@8.4.47",
+        "postcss-value-parser",
         "read-cache",
         "resolve@1.22.8"
       ]
@@ -2676,8 +2672,8 @@
     "postcss-nested@6.2.0_postcss@8.4.47": {
       "integrity": "sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==",
       "dependencies": [
-        "postcss-selector-parser",
-        "postcss@8.4.47"
+        "postcss@8.4.47",
+        "postcss-selector-parser"
       ]
     },
     "postcss-selector-parser@6.1.2": {
@@ -3215,12 +3211,12 @@
         "normalize-path",
         "object-hash",
         "picocolors@1.1.1",
+        "postcss@8.4.47",
         "postcss-import",
         "postcss-js",
         "postcss-load-config",
         "postcss-nested",
         "postcss-selector-parser",
-        "postcss@8.4.47",
         "resolve@1.22.8",
         "sucrase"
       ]
@@ -3325,6 +3321,21 @@
         "is-typed-array",
         "possible-typed-array-names",
         "reflect.getprototypeof"
+      ]
+    },
+    "typeit-react@2.7.8_react@19.1.0_react-dom@19.1.0__react@19.1.0": {
+      "integrity": "sha512-zN2Riiv63pmJEVqXOy1yXraF6hz1zr4L17pw1f9h4zQQDwP8YGBL+hcH9/75VOocjc7ZAg3hYUW1etZlZe4OfQ==",
+      "dependencies": [
+        "@types/react-dom@19.1.5_@types+react@19.1.4",
+        "react",
+        "react-dom",
+        "typeit"
+      ]
+    },
+    "typeit@8.8.7": {
+      "integrity": "sha512-sSVpy+cjeFP6Z+fZqiHzUSShg5yYFeJEt/Qut/bX945+Axyq+Yq+GPOuuk+sofoccSv8nNX/ibOOHkbki2mEpg==",
+      "dependencies": [
+        "@types/web-animations-js"
       ]
     },
     "typescript@5.6.2": {
@@ -3575,7 +3586,6 @@
         "npm:@types/react@18",
         "npm:eslint-config-next@^15.3.1",
         "npm:eslint@^9.25.1",
-        "npm:framer-motion@^12.5.0",
         "npm:lucide-react@0.477",
         "npm:next-mdx-remote@5",
         "npm:next@^15.3.1",
@@ -3585,6 +3595,7 @@
         "npm:remark-frontmatter@5",
         "npm:remark-mdx-frontmatter@^5.1.0",
         "npm:tailwindcss@3.4.17",
+        "npm:typeit-react@^2.7.8",
         "npm:typescript@5"
       ]
     }

@@ -14,14 +14,14 @@
     "@next/mdx": "^15.3.1",
     "@types/mdx": "^2.0.13",
     "eslint": "^9.25.1",
-    "framer-motion": "^12.5.0",
     "lucide-react": "^0.477.0",
     "next": "^15.3.1",
     "next-mdx-remote": "^5.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "remark-frontmatter": "^5.0.0",
-    "remark-mdx-frontmatter": "^5.1.0"
+    "remark-mdx-frontmatter": "^5.1.0",
+    "typeit-react": "^2.7.8"
   },
   "devDependencies": {
     "@types/node": "^20",
