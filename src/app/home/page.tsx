@@ -1,4 +1,4 @@
-import CardLogo from "@/app/home/CardLogo";
+import CardDisplay from "@/app/home/CardDisplay";
 import CardIntro from "@/app/home/CardIntro";
 import CardMerch from "@/app/home/CardMerch";
 import CardJoin from "@/app/home/CardJoin";
@@ -6,7 +6,7 @@ import CardJoin from "@/app/home/CardJoin";
 export default function Home() {
   return (
     <div className="flex flex-col divide-y divide-black">
-      <CardLogo />
+      <CardDisplay />
       <CardIntro />
       <CardMerch />
       <CardJoin />
