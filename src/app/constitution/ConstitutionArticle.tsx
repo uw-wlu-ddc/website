@@ -5,10 +5,11 @@ import { useMDXComponents } from "@/mdx-components";
 import { ConstitutionPath } from "@/constants/markdown";
 import ConstitutionText, {
   frontmatter,
-} from "@/markdown/constitution/page.mdx";
+} from "@/markdown/constitution/constitution.mdx";
 
 export default function ConstitutionArticle({ slug }: { slug?: string[] }) {
   let article;
+  const mdxComponents = useMDXComponents({});
   if (!slug) article = <ConstitutionText />;
   else {
     const filePath = path.join(process.cwd(), ConstitutionPath);
@@ -16,7 +17,7 @@ export default function ConstitutionArticle({ slug }: { slug?: string[] }) {
     const re = new RegExp(`<div id="${slug}">([\\s\\S]*?)<\\/div>`, "i");
     const match = raw.match(re);
     const section = match ? match[0] : "";
-    article = <MDXRemote source={section} components={useMDXComponents({})} />;
+    article = <MDXRemote source={section} components={mdxComponents} />;
   }
 
   return (
