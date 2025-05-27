@@ -4,7 +4,7 @@ Official Repo for the Double Degree Club Website
 
 ## Running
 
-node.js: `npm run dev`
+node.js: `npm run dev`  
 deno: `deno run dev`
 
 ## Contributors
