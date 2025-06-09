@@ -16,9 +16,9 @@ export default function DisplayTypewriter({ className }: { className?: string })
       getBeforeInit={(instance: TypeItCore) => {
         instance
           .type("the best in the world")
-          .pause(750)
+          .pause(1500)
           .delete(12)
-          .pause(500)
+          .pause(1000)
           .type("of both worlds");
         return instance;
       }}
