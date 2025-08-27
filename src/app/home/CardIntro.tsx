@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { Faces } from "@/constants/assets";
 import { Links } from "@/constants/urls";
 
@@ -45,8 +46,20 @@ export default function CardIntro() {
             className="absolute -right-6 bottom-0 translate-y-1/2"
           />
         </div>
-        <div>Instagram embed placeholder</div>
+        <div className="embedsocial-hashtag relative w-fit ddc-border bg-white" data-ref="6391d377ec6d3fdeb6f57cfb8de1df8fd9c68edd" data-lazyload="yes">
+          <a className="feed-powered-by-es feed-powered-by-es-slider-img es-widget-branding" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget" rel="noopener noreferrer">
+            <img src="https://embedsocial.com/cdn/icon/embedsocial-logo.webp" alt="EmbedSocial"/> 
+            <div className="es-widget-branding-text">Instagram widget</div>
+          </a>
+        </div>
+        <Script
+          src="https://embedsocial.com/cdn/ht.js"
+          strategy="lazyOnload"
+          id="EmbedSocialHashtagScript"
+        />
       </div>
     </div>
+
+    
   );
 }
