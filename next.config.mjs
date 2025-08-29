@@ -10,6 +10,16 @@ const nextConfig = {
     config.cache = false;
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'embedsocial.com',
+        port: '',
+        pathname: '/cdn/icon/embedsocial-logo.webp',
+      },
+    ]
+  }
 };
 
 const withMDX = createMDX({
