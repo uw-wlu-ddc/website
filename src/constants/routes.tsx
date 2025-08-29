@@ -1,8 +1,8 @@
 export const Routes = {
   Home: "/",
-  About: "/about",
+  About: "/about-execs",
+  Team: "/current-team",
   Constitution: "/constitution",
-  Execs: "/execs",
   Resources: "/resources",
 };
 

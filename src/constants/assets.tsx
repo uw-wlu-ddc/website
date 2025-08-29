@@ -16,6 +16,10 @@ export const Merch = {
     Quarterzips: "/assets/images/merch-quarterzips.svg"
 }
 
+export const Photos = {
+    Execs: "/assets/images/execs.png"
+}
+
 export const Headshots = {
     Placeholder: "/assets/headshots/placeholder.png",
 }

@@ -52,6 +52,9 @@
   .ddc-border {
     @apply border-2 border-black;
   }
+  .grey-box {
+    @apply w-fit py-2 px-4 bg-black-100/50;
+  }
 
   /* 1st, 2nd, and 3rd level list markers and indentations*/
   /* First level */

@@ -17,7 +17,6 @@ export default function Navbar() {
         <Link href={Routes.Home}>Home</Link>
         <Link href={Routes.About}>About</Link>
         <Link href={Routes.Constitution}>Constitution</Link>
-        <Link href={Routes.Execs}>Execs</Link>
         <Link href={Routes.Resources}>Resources</Link>
       </ul>
     </nav>

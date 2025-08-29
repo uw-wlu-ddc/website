@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Headshots } from "@/constants/assets";
+import Link from "next/link";
+
 
 const cardTransitionClasses = "transition-all hover:!-translate-x-3 hover:!-translate-y-3 hover:!shadow-singleShadow";
 
@@ -17,8 +19,9 @@ export default function ProfileCard({
   className?: string;
 }) {
   return (
-    <button
+    <a
       className={`px-8 py-6 bg-white/60 ddc-border ${cardTransitionClasses} ${className}`}
+      href={`mailto:${contact}`}
     >
       <Image
         src={photoSrc}
@@ -32,6 +35,6 @@ export default function ProfileCard({
         <p className="text-body/[110%] text-black/60">{role}</p>
         <p className="text-body/[110%] text-black/60">{contact}</p>
       </div>
-    </button>
+    </a>
   );
 }

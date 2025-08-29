@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Faces } from "@/constants/assets";
-import { Links } from "@/constants/urls";
+import { Routes } from "@/constants/routes";
 
 export default function CardIntro() {
   useEffect(() => {
@@ -53,17 +53,22 @@ export default function CardIntro() {
               social events, networking & mentorship opportunities
             </span>
             , and
-            <span className="font-bold"> academic resources</span>.
+            <Link
+              href={Routes.Resources}
+            >
+            <span className="font-bold underline"> academic resources</span>
+            </Link>
+            .
             <span className="font-bold"> Our goal</span> is to provide double
             degrees opportunities to find their community and support.
           </p>
           <Link
-            className="w-fit py-2 px-4 bg-black-100/50"
-            href={Links.Instagram}
+            className="grey-box"
+            href={Routes.Resources}
           >
-            <h4>
-              GET TO KNOW OUR COMMUNITY
-              <br />@<span className="underline">DOUBLEDEGREECLUB</span>
+            <h4 className="underline">
+              VIEW OUR DOUBLE DEGREE
+              <br />RESOURCES
             </h4>
           </Link>
           <Image

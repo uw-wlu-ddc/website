@@ -12,9 +12,9 @@ export default function Footer() {
           <h3>Double Degree Club</h3>
           <ul className="underline flex flex-col w-fit">
             <Link href={Routes.Home}>Home</Link>
-            <Link href={Routes.About}>About</Link>
+            <Link href={Routes.About}>About execs</Link>
+            <Link href={Routes.Team}>Current team</Link>
             <Link href={Routes.Constitution}>Constitution</Link>
-            <Link href={Routes.Execs}>Execs</Link>
             <Link href={Routes.Resources}>Resources</Link>
           </ul>
         </div>

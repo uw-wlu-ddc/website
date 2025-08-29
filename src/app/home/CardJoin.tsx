@@ -1,3 +1,8 @@
+import { Photos } from "@/constants/assets";
+import { Routes } from "@/constants/routes";
+import Image from "next/image";
+import Link from "next/link";
+
 export default function CardJoin() {
   return (
     <div className="flex justify-center items-center bg-white/60">
@@ -9,10 +14,22 @@ export default function CardJoin() {
           Joining the DDC exec team is the quickest way to get to know other
           community-oriented double degrees and get involved.
         </h2>
-        <div>Placeholder</div>
-        <p className="text-center">
-          Pay attention to your emails for DDC applications!
-        </p>
+        <Image
+          src={Photos.Execs}
+          width={409}
+          height={273}
+          alt=""
+          className="self-center"
+        />
+        <Link
+            className="grey-box"
+            href={Routes.About}
+          >
+            <h4 className="underline text-center">
+              LEARN WHAT EXECS
+              <br />DO AND HOW TO JOIN
+            </h4>
+          </Link>
       </div>
     </div>
   );
