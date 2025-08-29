@@ -7,7 +7,7 @@ import YasButton from "@/components/YasButton";
 export default function CardDisplay() {
   return (
     <div className="flex items-center justify-center">
-      <div className="relative w-fit my-[8.5rem] flex bg-white ddc-border p-[3.5rem] gap-[3.125rem]">
+      <div className="relative w-fit my-[8.5rem] flex flex-col lg:flex-row bg-white ddc-border p-[3.5rem] gap-[3.125rem]">
         <Image
           src={DDCLogo.Yassified}
           width={476}

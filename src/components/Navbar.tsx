@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Routes } from "@/constants/routes";
 import { DDCLogo } from "@/constants/assets";
+import NavDropDownItem from "@/components/NavDropDownItem";
 
 export default function Navbar() {
   return (
@@ -15,7 +16,13 @@ export default function Navbar() {
       </Link>
       <ul className="font-figtree text-subheader flex items-center gap-x-6">
         <Link href={Routes.Home}>Home</Link>
-        <Link href={Routes.About}>About</Link>
+        <li className="relative group">
+          <span className="cursor-pointer">About</span>
+          <div className="p-4 gap-4 absolute left-0 top-full mt-8 bg-white ddc-border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col">
+            <NavDropDownItem title="About execs" summary="About elections and execs" route={Routes.About}/>
+            <NavDropDownItem title="Current team" summary="Current executive team" route={Routes.Team}/>
+          </div>
+        </li>
         <Link href={Routes.Constitution}>Constitution</Link>
         <Link href={Routes.Resources}>Resources</Link>
       </ul>
