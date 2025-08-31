@@ -15,3 +15,9 @@ export const ConstitutionRoutes = {
   Amendments: "/constitution/amendments",
   Dissolution: "/constitution/dissolution",
 }
+
+export const ResourcesRoutes = {
+  ProgramRequirements: "/resources/program-requirements",
+  GradeConversions: "/resources/grade-conversions",
+  Mentorship: "/resources/mentorship",
+}

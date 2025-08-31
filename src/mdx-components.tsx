@@ -3,7 +3,7 @@ import type { MDXComponents } from 'mdx/types'
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     h1: (props: JSX.IntrinsicElements['h1']) => <h1 {...props} />,
-    h2: (props: JSX.IntrinsicElements['h2']) => <h2 className="mt-16" {...props} />,
+    h2: (props: JSX.IntrinsicElements['h2']) => <h2 className="mt-16 mb-4" {...props} />,
     h3: (props: JSX.IntrinsicElements['h3']) => <h3 {...props} />,
     h4: (props: JSX.IntrinsicElements['h4']) => <h4 {...props} />,
     p:  (props: JSX.IntrinsicElements['p']) => <p {...props} />,
