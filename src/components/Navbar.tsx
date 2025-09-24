@@ -19,8 +19,8 @@ export default function Navbar() {
         <li className="relative group">
           <span className="cursor-pointer">About</span>
           <div className="p-4 gap-4 absolute left-0 top-full mt-8 bg-white ddc-border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col">
-            <NavDropDownItem title="About execs" summary="About elections and execs" route={Routes.About}/>
-            <NavDropDownItem title="Current team" summary="Current executive team" route={Routes.Team}/>
+            <NavDropDownItem title="About Execs" summary="About elections and execs" route={Routes.About}/>
+            <NavDropDownItem title="Current Team" summary="The current executive team" route={Routes.Team}/>
           </div>
         </li>
         <Link href={Routes.Constitution}>Constitution</Link>
