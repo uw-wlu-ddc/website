@@ -20,7 +20,7 @@ export default function ProfileCard({
 }) {
   return (
     <a
-      className={`px-8 py-6 bg-white/60 ddc-border ${cardTransitionClasses} ${className}`}
+      className={`w-fit max-w-80 px-8 py-6 bg-white/60 ddc-border ${cardTransitionClasses} ${className}`}
       href={`mailto:${contact}`}
     >
       <Image

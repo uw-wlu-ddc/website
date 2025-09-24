@@ -63,7 +63,7 @@ export default function CardIntro() {
             degrees opportunities to find their community and support.
           </p>
           <Link
-            className="grey-box"
+            className="ddc-grey-box"
             href={Routes.Resources}
           >
             <h4 className="underline">

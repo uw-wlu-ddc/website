@@ -6,7 +6,7 @@ export default function Executives() {
       <h2 className="mb-16 mt-32 grow-0 ddc-headerbox ddc-border">
         Current Team
       </h2>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <ProfileCard name="Sean Kim" role="President" contact="president@ddclub.ca" />
         <ProfileCard name="Estella Vaynshteyn" role="VP, WLU Affairs" contact="vpwlu@ddclub.ca" />
         <ProfileCard name="Sky Yu" role="VP, UW Affairs" contact="vpuw@ddclub.ca" />

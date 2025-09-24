@@ -8,6 +8,7 @@ const config: Config = {
       current: "currentColor",
       black: {
         DEFAULT: "#20112c",
+        50: "#e5e4e8",
         100: "#d2cfd5",
         200: "#a6a0ab",
         300: "#797080",

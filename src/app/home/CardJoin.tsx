@@ -22,7 +22,7 @@ export default function CardJoin() {
           className="self-center"
         />
         <Link
-            className="grey-box"
+            className="ddc-grey-box"
             href={Routes.About}
           >
             <h4 className="underline text-center">
