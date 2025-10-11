@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Headshots } from "@/constants/assets";
-import Link from "next/link";
 
 
 const cardTransitionClasses = "transition-all hover:!-translate-x-3 hover:!-translate-y-3 hover:!shadow-singleShadow";

@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 export default function MobileDialog() {
     const [dialogOpen, setDialogOpen] = useState(false);
-    const [isMobile, setMobile] = useState(false);
 
     useEffect(() => {
         const checkMobile = () => {
