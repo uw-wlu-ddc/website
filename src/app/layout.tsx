@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MobileDialog from "@/components/MobileDialog";
 
 export const metadata: Metadata = {
     title: "Double Degree Club",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
       <html className="!scroll-smooth" lang="en">
         <body>
+            <MobileDialog />
             <Navbar />
             <main className="min-h-screen">{children}</main>
             <Footer />
