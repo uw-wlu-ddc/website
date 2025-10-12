@@ -13,7 +13,6 @@ export default function Executives() {
         <ProfileCard name="Cyrus Bharucha" role="Director of Finance" contact="finance@ddclub.ca" />
         <ProfileCard name="Arnav Divekar" role="Director of Finance" contact="finance@ddclub.ca" />
         <ProfileCard name="Serene Xue" role="Director of Internal Affairs" contact="internal@ddclub.ca" />
-        <ProfileCard name="Fisher Jessop" role="Director of Internal Affairs" contact="internal@ddclub.ca" />
         <ProfileCard name="Sebastian Arellano-Rubach" role="Director of External Affairs" contact="external@ddclub.ca" />
         <ProfileCard name="Jackson Sorger" role="Director of External Affairs" contact="external@ddclub.ca" />
         <ProfileCard name="Stella Delorey" role="Director of Marketing" contact="marketing@ddclub.ca" />
