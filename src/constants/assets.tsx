@@ -22,4 +22,13 @@ export const Photos = {
 
 export const Headshots = {
     Placeholder: "/assets/headshots/placeholder.png",
+    President: "/assets/headshots/sean.jpg",
+    VPUW: "/assets/headshots/sky.jpg",
+    VPWLU: "/assets/headshots/estella.jpg",
+    ExtJ: "/assets/headshots/jackson.jpg",
+    ExtS: "/assets/headshots/sebastian.jpg",
+    FYAB: "/assets/headshots/barnett.jpg",
+    FYAA: "/assets/headshots/andy.jpg",
+    FYAV: "/assets/headshots/vivian.jpg",
+    FYAK: "/assets/headshots/karan.jpg",
 }
