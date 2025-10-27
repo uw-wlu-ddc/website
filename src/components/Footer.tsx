@@ -46,6 +46,7 @@ export default function Footer() {
           <h3>Resources</h3>
           <ul className="underline flex flex-col w-fit">
             <Link href={Links.CSBBAFAQ}>CS/BBA FAQ</Link>
+            <Link href={Links.OldWebsite}>Old website</Link>
             <Link href={Links.EasterEgg}>Easter egg!</Link>
           </ul>
         </div>
