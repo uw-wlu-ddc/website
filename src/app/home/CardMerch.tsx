@@ -15,7 +15,6 @@ export default function CardMerch() {
           </h2>
           <YasButton
             href={Links.Quarterzips}
-            disabled={true}
             className="absolute right-[8.25rem] bottom-[-1.5rem] flex font-figtree text-subheader"
           >
             Purchase <ArrowRight />
