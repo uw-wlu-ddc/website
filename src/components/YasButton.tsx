@@ -28,7 +28,7 @@ export default function YasButton({
       href={href}
       className={`gap-2.5 w-fit px-[3.125rem] py-4 ddc-border ${shadowClasses} ${disabledClasses} ${className} ${disabled}`}
     >
-      {disabled ? "Restocking soon..." : children}
+      {children}
     </Link>
   );
 }
