@@ -1,5 +1,6 @@
 # Double Degree Club Website
 
+The site is live at [https://ddclub.ca/](https://ddclub.ca/)!
 Official Repo for the Double Degree Club Website. 
 
 ## How to update content
